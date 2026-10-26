@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.fabricmc</groupId>
+  <artifactId>mercurymixin</artifactId>
+  <version>0.2.2</version>
+  <name>MercuryMixin</name>
+  <description>Processor for remapping Mixins using Mercury</description>
+  <url>https://github.com/CadixDev/MercuryMixin</url>
+  <inceptionYear>2020</inceptionYear>
+  <licenses>
+    <license>
+      <name>Mozilla Public License 2.0</name>
+      <url>https://opensource.org/licenses/MPL-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jamierocks</id>
+      <name>Jamie Mansfield</name>
+      <email>jmansfield@cadixdev.org</email>
+      <url>https://www.jamiemansfield.me/</url>
+      <timezone>Europe/London</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/FabricMC/MercuryMixin.git</connection>
+    <developerConnection>scm:git:git@github.com:FabricMC/MercuryMixin.git</developerConnection>
+    <url>https://github.com/FabricMC/MercuryMixin</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/FabricMC/MercuryMixin/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>mercury</artifactId>
+      <version>0.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

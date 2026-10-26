@@ -1,0 +1,16 @@
+{
+  "key.category.paperutility.general": "TheHouse",
+  "key.paperutility.menu": "Open External UI",
+  "key.paperutility.toggle": "Paper",
+  "key.paperutility.side": "Side",
+  "key.paperutility.blackjack_rigging": "Blackjack",
+  "key.paperutility.blackjack_host_turn": "Blackjack Host Turn / New Hand",
+  "key.paperutility.arrow_toggle": "Toggle Arrow Module",
+  "key.category.paperutility.render": "TheHouse \u00b7 Render",
+  "key.paperutility.render.freecam": "Toggle Freecam",
+  "key.paperutility.render.fullbright": "Toggle Fullbright",
+  "key.paperutility.render.norender": "Toggle NoRender",
+  "key.paperutility.render.esp": "Toggle ESP",
+  "key.paperutility.render.zoom": "Zoom (hold)",
+  "key.paperutility.render.nametags": "Toggle Nametags"
+}

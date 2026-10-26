@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.fabricmc",
+    "module": "mercurymixin",
+    "version": "0.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "mercury",
+          "version": {
+            "requires": "0.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mercurymixin-0.2.2.jar",
+          "url": "mercurymixin-0.2.2.jar",
+          "size": 49236,
+          "sha512": "47f315208d958eda2d759a4609442a0d7fb7c30744ff2c1f02b2b4f0a5baab8d9ace4826fa65ad52b58d4b84693b56372736ae8108a051c6868011ebf2d70e67",
+          "sha256": "85ec7d9edb40f90f24b3383df31202dc1f6869a81baa823840b74ea76a7ee2e5",
+          "sha1": "801fbebdd6a9ab19d142ba16bfd16cd15a8e4ebd",
+          "md5": "e65e5fa6568ae59364efccccd7243d4b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "mercury",
+          "version": {
+            "requires": "0.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mercurymixin-0.2.2.jar",
+          "url": "mercurymixin-0.2.2.jar",
+          "size": 49236,
+          "sha512": "47f315208d958eda2d759a4609442a0d7fb7c30744ff2c1f02b2b4f0a5baab8d9ace4826fa65ad52b58d4b84693b56372736ae8108a051c6868011ebf2d70e67",
+          "sha256": "85ec7d9edb40f90f24b3383df31202dc1f6869a81baa823840b74ea76a7ee2e5",
+          "sha1": "801fbebdd6a9ab19d142ba16bfd16cd15a8e4ebd",
+          "md5": "e65e5fa6568ae59364efccccd7243d4b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mercurymixin-0.2.2-javadoc.jar",
+          "url": "mercurymixin-0.2.2-javadoc.jar",
+          "size": 152100,
+          "sha512": "197b9dc66c95f42ebb85b65f036559d42d2235d5b347cd15583af8689b856ea58df356bb29ab54973e2513ceaa866f2c1e022debda1e0f9dcb6cbc2b1585cb15",
+          "sha256": "61a484d34d3ac7644268eed66c8e3455eb717c49f4737d09ea6a7385bbfa34a2",
+          "sha1": "99bcf96a15be126f8e071c67ae8236ee490d250b",
+          "md5": "5bdc7e05bcaf5659332886a2588ec21e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mercurymixin-0.2.2-sources.jar",
+          "url": "mercurymixin-0.2.2-sources.jar",
+          "size": 28957,
+          "sha512": "012c689e94e073991ce837eba12c89680f99ee4922a85e8d5d18d658c42e76e3f5ff743ed64619033becfa14f0a433779f20068fda79e1baf7cad5eca2e2dcd9",
+          "sha256": "4c54ca2781096b20f4bd80d707cae128a7a52230b4f27a44c855937d1ac806a6",
+          "sha1": "bb1ab1ae75b981b130a87762f95006764a6df0d0",
+          "md5": "3f0c478e6d002310eb39a1f11865e99f"
+        }
+      ]
+    }
+  ]
+}

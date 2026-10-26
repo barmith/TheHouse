@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "paperutility",
+  "version": "${version}",
+  "name": "TheHouse",
+  "description": "Client-side utility tools for TheHouse.",
+  "icon": "assets/paperutility/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.thehouse.paperutility.PaperUtilityClient"
+    ]
+  },
+  "mixins": [
+    "paperutility.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ]
+    }
+  }
+}

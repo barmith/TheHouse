@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.guardsquare</groupId>
+  <artifactId>proguard-base</artifactId>
+  <version>7.6.1</version>
+  <name>com.guardsquare:proguard-base</name>
+  <description>ProGuard is a free shrinker, optimizer, obfuscator, and preverifier for Java bytecode</description>
+  <url>https://www.guardsquare.com/proguard</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, Version 2</name>
+      <url>https://www.gnu.org/licenses/gpl-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lafortune</id>
+      <name>Eric Lafortune</name>
+      <organization>Guardsquare</organization>
+      <organizationUrl>https://www.guardsquare.com/</organizationUrl>
+      <roles>
+        <role>Project Administrator</role>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Guardsquare/proguard.git</connection>
+    <url>https://github.com/Guardsquare/proguard.git</url>
+  </scm>
+  <issueManagement>
+    <system>Github Tracker</system>
+    <url>https://github.com/Guardsquare/proguard/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.guardsquare</groupId>
+      <artifactId>proguard-core</artifactId>
+      <version>9.1.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.24.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.24.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20231013</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.guardsquare</groupId>
+      <artifactId>proguard-base</artifactId>
+      <version>7.6.1</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>

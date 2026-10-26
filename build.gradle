@@ -1,0 +1,116 @@
+plugins {
+    id 'fabric-loom' version '1.14.10'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+sourceSets {
+    main {
+        resources {
+            exclude 'opsec.client.mixins.json'
+            exclude 'assets/opsec/**'
+        }
+    }
+}
+
+
+repositories {
+    maven { url = 'https://maven.fabricmc.net/' }
+    maven { url = 'https://maven.terraformersmc.com/releases/' }
+    maven { url = 'https://maven.bawnorton.com/releases/' }
+    maven { url = 'https://jitpack.io/' }
+    mavenCentral()
+}
+
+dependencies {
+    productionRuntimeMods "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    productionRuntimeMods 'com.terraformersmc:modmenu:17.0.0-beta.1'
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    modImplementation "com.terraformersmc:modmenu:17.0.0-beta.1"
+    modImplementation "com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.3.3"
+    include "com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.3.3"
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') {
+        expand 'version': project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+tasks.register('productionRunClient', net.fabricmc.loom.task.prod.ClientProductionRunTask) {
+    group = 'fabric'
+    description = 'Launches the bundled release jar with Fabric API and Mod Menu.'
+    useXVFB = providers.gradleProperty('headless').map { it.toBoolean() }.orElse(false)
+    runDir = layout.projectDirectory.dir('run-production')
+    jvmArgs.add('-Xmx2G')
+}
+
+
+evaluationDependsOn(':opsec')
+def opsecRelease = project(':opsec').tasks.named('remapJar')
+def houseRelease = tasks.named('remapJar')
+
+tasks.register('prepareSingleJarMetadata') {
+    dependsOn houseRelease
+    def output = layout.buildDirectory.file('single-jar-metadata/fabric.mod.json')
+    outputs.file(output)
+    doLast {
+        def sourceJar = houseRelease.get().archiveFile.get().asFile
+        def json = new groovy.json.JsonSlurper().parseText(
+            new java.util.zip.ZipFile(sourceJar).withCloseable { zip ->
+                zip.getInputStream(zip.getEntry('fabric.mod.json')).getText('UTF-8')
+            }
+        )
+        def nested = (json.jars ?: []).collect { it }
+        if (!nested.any { it.file == 'META-INF/jars/opsec.jar' }) nested.add([file: 'META-INF/jars/opsec.jar'])
+        json.jars = nested
+        def target = output.get().asFile
+        target.parentFile.mkdirs()
+        target.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(json))
+    }
+}
+
+tasks.register('singleJar', Zip) {
+    group = 'distribution'
+    description = 'Builds one installable Fabric jar containing TheHouse and remapped OpSec.'
+    dependsOn houseRelease, opsecRelease, tasks.named('prepareSingleJarMetadata')
+    archiveFileName = "${project.archives_base_name}-${project.mod_version}-single.jar"
+    destinationDirectory = layout.buildDirectory.dir('libs')
+    duplicatesStrategy = DuplicatesStrategy.FAIL
+    from({ zipTree(houseRelease.get().archiveFile.get().asFile) }) {
+        exclude 'fabric.mod.json'
+        exclude 'META-INF/jars/opsec.jar'
+    }
+    from(tasks.named('prepareSingleJarMetadata').map { layout.buildDirectory.file('single-jar-metadata/fabric.mod.json').get().asFile }) {
+        into ''
+    }
+    from(opsecRelease.flatMap { it.archiveFile }) {
+        into 'META-INF/jars'
+        rename { 'opsec.jar' }
+    }
+}
+
+tasks.named('build') { dependsOn tasks.named('singleJar') }
+

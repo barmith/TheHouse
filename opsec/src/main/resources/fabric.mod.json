@@ -1,0 +1,53 @@
+{
+	"schemaVersion": 1,
+	"id": "opsec",
+	"version": "${version}",
+	"name": "OpSec",
+	"description": "Advanced client brand spoofing, tracking exploit protections, and other privacy focused features.",
+	"authors": [
+		"Aurick"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/opsec",
+		"sources": "https://github.com/aurickk/OpSec",
+		"issues": "https://github.com/aurickk/OpSec/issues"
+	},
+	"license": "GPL-3.0-only",
+	"icon": "assets/opsec/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"aurick.opsec.mod.OpsecClient"
+		],
+		"mixinsquared": [
+			"aurick.opsec.mod.mixin.MeteorMixinCanceller"
+		]
+	},
+	"mixins": [
+		{
+			"config": "opsec.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"conflicts": {
+		"exploitpreventer": "*"
+	},
+	"breaks": {
+		"ichor": "*",
+		"labymod": "*",
+		"autismsexdefender": "*"
+	},
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": "${minecraft_version_range}",
+		"java": ">=${java_version}",
+		"fabric-api": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"badges": [
+				"library"
+			]
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"required": true,
+	"package": "aurick.opsec.mod.mixin.client",
+	"compatibilityLevel": "${mixin_compat_level}",
+	"client": [
+		"ClientBrandRetrieverMixin",
+		"ClientConnectionMixin",
+		"ClientPacketListenerMixin",
+		"ClientCommonPacketListenerImplMixin",
+		"ConnectScreenMixin",
+		"DownloadQueueMixin",
+		"DownloadedPackSourceMixin",
+		"DownloadedPackSourceAccessor",
+		"LegacyDownloadedPackSourceMixin",
+		"PackRepositoryMixin",
+		"PackSelectionModelMixin",
+		"PackSelectionModelEntryBaseMixin",
+		"ChannelRegistrationMixin",
+		"MinecraftAccessor",
+		"MinecraftMixin",
+		"YggdrasilUserApiServiceMixin",
+		"ChatOptionsScreenMixin",
+		"ServerboundChatPacketMixin",
+		"HttpUtilMixin",
+		"ClientLanguageAccessor",
+		"ClientLanguageMixin",
+		"DeprecatedTranslationsInfoMixin",
+		"KeyBindingRegistryImplMixin",
+		"ResourceLoaderBuiltinPackMixin",${known_packs_mixin_entry}${payload_type_registry_mixin_entry}
+		"KeybindContentsMixin",
+		"TranslatableContentsMixin",
+		"ComponentSerializationMixin",
+		"PacketDecoderMixin",
+		"PacketProcessorMixin",
+		"PacketUtilsMixin",
+		"TabNavigationBarMixin",
+		"TitleScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"conformVisibility": true
+	},
+	"verbose": false
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.bawnorton.mixinsquared",
+    "module": "mixinsquared-fabric",
+    "version": "0.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mixinsquared-fabric-0.3.3.jar",
+          "url": "mixinsquared-fabric-0.3.3.jar",
+          "size": 104742,
+          "sha512": "f5f34fc948570e7422f8088add80d5026ba911973619d0b074998e25b7675b1bb29491fc38b4d1a300b4697a79ec248057618d008af15da2b71bef82ef8e2ab5",
+          "sha256": "3d54aa1bc6c94afc37e755966db5e7ccf68b82d136aa246d3d0dbedb7c4358ce",
+          "sha1": "22af6637bc0efa06acfee5c75849b8659e567925",
+          "md5": "e15931e45a6993500951405df2d59a89"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mixinsquared-fabric-0.3.3.jar",
+          "url": "mixinsquared-fabric-0.3.3.jar",
+          "size": 104742,
+          "sha512": "f5f34fc948570e7422f8088add80d5026ba911973619d0b074998e25b7675b1bb29491fc38b4d1a300b4697a79ec248057618d008af15da2b71bef82ef8e2ab5",
+          "sha256": "3d54aa1bc6c94afc37e755966db5e7ccf68b82d136aa246d3d0dbedb7c4358ce",
+          "sha1": "22af6637bc0efa06acfee5c75849b8659e567925",
+          "md5": "e15931e45a6993500951405df2d59a89"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mixinsquared-fabric-0.3.3-sources.jar",
+          "url": "mixinsquared-fabric-0.3.3-sources.jar",
+          "size": 82666,
+          "sha512": "0f2b381cd638b1a64144e735a435702012381fc9226add2165a0e0c036ee5985b47daaa54405eddfb09c7f362df08d061c0df82211a60b2a5079f6eeaeeb53ed",
+          "sha256": "8d7e26f87eb9aac88e27323aaf095230ea09a3b1da4276ba622692687c3aa8f9",
+          "sha1": "5b451f016ccbb804966486365959468340fb92fb",
+          "md5": "86d9a177313846fe8081d106fca09d9b"
+        }
+      ]
+    }
+  ]
+}

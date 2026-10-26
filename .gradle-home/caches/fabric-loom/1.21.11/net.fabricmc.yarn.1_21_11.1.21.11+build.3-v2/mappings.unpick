@@ -1,0 +1,1804 @@
+unpick v4
+
+group long chunk_ticket_type_expiration
+	net.minecraft.class_3230.field_55598
+
+group int chunk_ticket_type_flags
+	@flags
+	net.minecraft.class_3230.field_61096
+	net.minecraft.class_3230.field_61097
+	net.minecraft.class_3230.field_61098
+	net.minecraft.class_3230.field_61099
+	net.minecraft.class_3230.field_61100
+
+target_method net.minecraft.class_3230 method_66026 (Ljava/lang/String;JI)Lnet/minecraft/class_3230;
+	param 1 chunk_ticket_type_expiration
+	param 2 chunk_ticket_type_flags
+
+target_method net.minecraft.class_3230 <init> (JI)V
+	param 0 chunk_ticket_type_expiration
+	param 1 chunk_ticket_type_flags
+
+target_method net.minecraft.class_3230 comp_3474 ()J
+	return chunk_ticket_type_expiration
+
+target_method net.minecraft.class_3230 comp_4411 ()I
+	return chunk_ticket_type_flags
+
+#: Integers in ARGB color format.
+group int argb_color
+	@format hex
+	net.minecraft.class_8012.*
+	net.minecraft.class_4905.field_33061
+	net.minecraft.class_4905.field_33062
+	net.minecraft.class_4905.field_33063
+	net.minecraft.class_4905.field_33040
+	net.minecraft.class_4905.field_33041
+
+target_method net.minecraft.class_9848 method_61320 (I)I
+	param 0 argb_color
+
+target_method net.minecraft.class_9848 method_61327 (I)I
+	param 0 argb_color
+
+target_method net.minecraft.class_9848 method_61329 (I)I
+	param 0 argb_color
+
+target_method net.minecraft.class_9848 method_61331 (I)I
+	param 0 argb_color
+
+target_method net.minecraft.class_9848 method_61324 (IIII)I
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61323 (III)I
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61325 (Lnet/minecraft/class_243;)I
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61322 (II)I
+	param 0 argb_color
+	param 1 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61321 (IF)I
+	param 0 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61328 (II)I
+	param 0 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61333 (I)I
+	param 0 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61319 (FII)I
+	param 1 argb_color
+	param 2 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61334 (I)I
+	param 0 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61335 (I)I
+	param 0 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61330 (II)I
+	param 1 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_71346 (FI)I
+	param 1 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61317 (F)I
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61318 (FFFF)I
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61332 (II)I
+	param 0 argb_color
+	param 1 argb_color
+	return argb_color
+
+target_method net.minecraft.class_9848 method_61337 (I)I
+	param 0 argb_color
+
+target_method net.minecraft.class_9848 method_61338 (I)I
+	return argb_color
+
+target_method net.minecraft.class_327 method_27521 (Ljava/lang/String;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)V
+	param 3 argb_color
+
+target_method net.minecraft.class_327 method_27522 (Lnet/minecraft/class_2561;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)V
+	param 3 argb_color
+
+target_method net.minecraft.class_327 method_22942 (Lnet/minecraft/class_5481;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)V
+	param 3 argb_color
+
+target_method net.minecraft.class_327 method_37296 (Lnet/minecraft/class_5481;FFIILorg/joml/Matrix4f;Lnet/minecraft/class_4597;I)V
+	param 3 argb_color
+	param 4 argb_color
+
+target_method net.minecraft.class_332 method_25300 (Lnet/minecraft/class_327;Ljava/lang/String;III)V
+	param 4 argb_color
+
+target_method net.minecraft.class_332 method_27534 (Lnet/minecraft/class_327;Lnet/minecraft/class_2561;III)V
+	param 4 argb_color
+
+target_method net.minecraft.class_332 method_35719 (Lnet/minecraft/class_327;Lnet/minecraft/class_5481;III)V
+	param 4 argb_color
+
+target_method net.minecraft.class_332 method_25303 (Lnet/minecraft/class_327;Ljava/lang/String;III)V
+	param 4 argb_color
+
+target_method net.minecraft.class_332 method_51433 (Lnet/minecraft/class_327;Ljava/lang/String;IIIZ)V
+	param 4 argb_color
+
+target_method net.minecraft.class_332 method_27535 (Lnet/minecraft/class_327;Lnet/minecraft/class_2561;III)V
+	param 4 argb_color
+
+target_method net.minecraft.class_332 method_51439 (Lnet/minecraft/class_327;Lnet/minecraft/class_2561;IIIZ)V
+	param 4 argb_color
+
+target_method net.minecraft.class_332 method_51440 (Lnet/minecraft/class_327;Lnet/minecraft/class_5348;IIIIZ)V
+	param 5 argb_color
+
+target_method net.minecraft.class_332 method_65179 (Lnet/minecraft/class_327;Lnet/minecraft/class_5348;IIII)V
+	param 5 argb_color
+
+target_method net.minecraft.class_332 method_51738 (IIII)V
+	param 3 argb_color
+
+target_method net.minecraft.class_332 method_51742 (IIII)V
+	param 3 argb_color
+
+target_method net.minecraft.class_332 method_25294 (IIIII)V
+	param 4 argb_color
+
+target_method net.minecraft.class_332 method_48196 (Lcom/mojang/blaze3d/pipeline/RenderPipeline;IIIII)V
+	param 5 argb_color
+
+target_method net.minecraft.class_332 method_25296 (IIIIII)V
+	param 4 argb_color
+	param 5 argb_color
+
+target_method net.minecraft.class_332 method_73198 (IIIII)V
+	param 4 argb_color
+
+target_method net.minecraft.class_4588 method_39415 (I)Lnet/minecraft/class_4588;
+	param 0 argb_color
+
+target_method net.minecraft.class_5251 method_27717 (I)Lnet/minecraft/class_5251;
+	param 0 argb_color
+
+target_method net.minecraft.class_2583 method_36139 (I)Lnet/minecraft/class_2583;
+	param 0 argb_color
+
+target_method net.minecraft.class_5250 method_54663 (I)Lnet/minecraft/class_5250;
+	param 0 argb_color
+
+group int cursor_shape
+	org.lwjgl.glfw.GLFW.GLFW_ARROW_CURSOR
+	org.lwjgl.glfw.GLFW.GLFW_IBEAM_CURSOR
+	org.lwjgl.glfw.GLFW.GLFW_CROSSHAIR_CURSOR
+	org.lwjgl.glfw.GLFW.GLFW_POINTING_HAND_CURSOR
+	org.lwjgl.glfw.GLFW.GLFW_RESIZE_EW_CURSOR
+	org.lwjgl.glfw.GLFW.GLFW_RESIZE_NS_CURSOR
+	org.lwjgl.glfw.GLFW.GLFW_RESIZE_NWSE_CURSOR
+	org.lwjgl.glfw.GLFW.GLFW_RESIZE_NESW_CURSOR
+	org.lwjgl.glfw.GLFW.GLFW_RESIZE_ALL_CURSOR
+	org.lwjgl.glfw.GLFW.GLFW_NOT_ALLOWED_CURSOR
+
+target_method net.minecraft.class_11875 method_74031 (ILjava/lang/String;Lnet/minecraft/class_11875;)Lnet/minecraft/class_11875;
+	param 0 cursor_shape
+
+#: Flags used in {@link net.minecraft.entity.passive.BeeEntity#BEE_FLAGS BEE_FLAGS}.
+group int bee_flags
+	@flags
+	net.minecraft.class_4466.field_30281
+	net.minecraft.class_4466.field_30282
+	net.minecraft.class_4466.field_30283
+
+target_method net.minecraft.class_4466 method_21812 (I)Z
+	param 0 bee_flags
+
+target_method net.minecraft.class_4466 method_21775 (IZ)V
+	param 0 bee_flags
+
+#: Flags used in {@link net.minecraft.entity.passive.FoxEntity#FOX_FLAGS FOX_FLAGS}.
+group int fox_flags
+	@flags
+	net.minecraft.class_4019.field_30331
+	net.minecraft.class_4019.field_30328
+	net.minecraft.class_4019.field_30329
+	net.minecraft.class_4019.field_30330
+	net.minecraft.class_4019.field_30332
+	net.minecraft.class_4019.field_30333
+	net.minecraft.class_4019.field_30334
+
+target_method net.minecraft.class_4019 method_18293 (I)Z
+	param 0 fox_flags
+
+target_method net.minecraft.class_4019 method_18269 (IZ)V
+	param 0 fox_flags
+
+#: Flags used in {@link net.minecraft.entity.passive.AbstractHorseEntity#HORSE_FLAGS HORSE_FLAGS}.
+group int horse_flags
+	@flags
+	net.minecraft.class_1496.field_30419
+	net.minecraft.class_1496.field_30421
+	net.minecraft.class_1496.field_30422
+	net.minecraft.class_1496.field_30423
+	net.minecraft.class_1496.field_30424
+
+target_method net.minecraft.class_1496 method_6730 (I)Z
+	param 0 horse_flags
+
+target_method net.minecraft.class_1496 method_6769 (IZ)V
+	param 0 horse_flags
+
+#: Flags used in {@link net.minecraft.entity.LivingEntity#LIVING_FLAGS LIVING_FLAGS}.
+group int living_entity_flags
+	@flags
+	net.minecraft.class_1309.field_30064
+	net.minecraft.class_1309.field_30065
+	net.minecraft.class_1309.field_30066
+
+target_method net.minecraft.class_1309 method_6085 (IZ)V
+	param 0 living_entity_flags
+
+#: Flags used in {@link net.minecraft.entity.passive.PandaEntity#PANDA_FLAGS PANDA_FLAGS}.
+group int panda_flags
+	@flags
+	net.minecraft.class_1440.field_30344
+	net.minecraft.class_1440.field_30345
+	net.minecraft.class_1440.field_30346
+	net.minecraft.class_1440.field_30347
+
+target_method net.minecraft.class_1440 method_6533 (I)Z
+	param 0 panda_flags
+
+target_method net.minecraft.class_1440 method_6557 (IZ)V
+	param 0 panda_flags
+
+#: Flags used in {@link net.minecraft.entity.projectile.PersistentProjectileEntity.PROJECTILE_FLAGS PROJECTILE_FLAGS}.
+group int persistent_projectile_flags
+	@flags
+	net.minecraft.class_1665.field_30654
+	net.minecraft.class_1665.field_30655
+
+target_method net.minecraft.class_1665 method_7455 (IZ)V
+	param 0 persistent_projectile_flags
+
+#: Flags used in {@link net.minecraft.entity.mob.VexEntity#VEX_FLAGS VEX_FLAGS}.
+group int vex_flags
+	@flags
+	net.minecraft.class_1634.field_30503
+
+target_method net.minecraft.class_1634 method_7184 (I)Z
+	param 0 vex_flags
+
+target_method net.minecraft.class_1634 method_7189 (IZ)V
+	param 0 vex_flags
+
+#: Flags used in {@link net.minecraft.entity.decoration.ArmorStandEntity#ARMOR_STAND_FLAGS ARMOR_STAND_FLAGS}.
+group int armor_stand_flags
+	@flags
+	net.minecraft.class_1531.field_30452
+	net.minecraft.class_1531.field_30453
+	net.minecraft.class_1531.field_30442
+	net.minecraft.class_1531.field_30444
+
+target_method net.minecraft.class_1531 method_6906 (BIZ)B
+	param 1 armor_stand_flags
+
+#: Flags used in {@link net.minecraft.entity.decoration.DisplayEntity.TextDisplayEntity#TEXT_DISPLAY_FLAGS TEXT_DISPLAY_FLAGS}.
+group int text_display_flags
+	@flags
+	net.minecraft.class_8113$class_8123.field_42444
+	net.minecraft.class_8113$class_8123.field_42445
+	net.minecraft.class_8113$class_8123.field_42446
+	net.minecraft.class_8113$class_8123.field_42447
+	net.minecraft.class_8113$class_8123.field_42448
+
+target_method net.minecraft.class_8113$class_8123 method_48903 (BLnet/minecraft/class_11368;Ljava/lang/String;B)B
+	param 3 text_display_flags
+
+target_method net.minecraft.class_8113$class_8123 method_48907 (BLnet/minecraft/class_11372;Ljava/lang/String;B)V
+	param 3 text_display_flags
+
+target_method net.minecraft.class_8113$class_8123 method_48902 (B)Lnet/minecraft/class_8113$class_8123$class_8124;
+	param 0 text_display_flags
+
+target_method net.minecraft.class_8113$class_8123$class_8230 comp_1338 ()B
+	return text_display_flags
+
+#: Flags indices used in {@link net.minecraft.entity.Entity#FLAGS Entity.FLAGS}.
+#: 
+#: <p>The mask for the flag with index {@code k} is computed with the formula {@code 1 << k}.
+group int entity_flag_index
+	net.minecraft.class_1297.field_29979
+	net.minecraft.class_1297.field_29975
+	net.minecraft.class_1297.field_29976
+	net.minecraft.class_1297.field_29977
+	net.minecraft.class_1297.field_29978
+	net.minecraft.class_1297.field_29980
+	net.minecraft.class_1297.field_29981
+
+target_method net.minecraft.class_1297 method_5795 (I)Z
+	param 0 entity_flag_index
+
+target_method net.minecraft.class_1297 method_5729 (IZ)V
+	param 0 entity_flag_index
+
+#: Entity model part names.
+group String entity_model_parts
+	net.minecraft.class_6230.*
+
+target_method net.minecraft.class_630 method_32086 (Ljava/lang/String;)Lnet/minecraft/class_630;
+	param 0 entity_model_parts
+
+target_method net.minecraft.class_5606 method_32105 (Ljava/lang/String;FFFIIILnet/minecraft/class_5605;II)Lnet/minecraft/class_5606;
+	param 0 entity_model_parts
+
+target_method net.minecraft.class_5606 method_32104 (Ljava/lang/String;FFFIIIII)Lnet/minecraft/class_5606;
+	param 0 entity_model_parts
+
+target_method net.minecraft.class_5606 method_32102 (Ljava/lang/String;FFFFFF)Lnet/minecraft/class_5606;
+	param 0 entity_model_parts
+
+target_method net.minecraft.class_5606 method_32103 (Ljava/lang/String;FFFFFFLnet/minecraft/class_5605;)Lnet/minecraft/class_5606;
+	param 0 entity_model_parts
+
+target_method net.minecraft.class_5610 method_32116 (Ljava/lang/String;)Lnet/minecraft/class_5610;
+	param 0 entity_model_parts
+
+target_method net.minecraft.class_5610 method_62142 (Ljava/lang/String;)Lnet/minecraft/class_5610;
+	param 0 entity_model_parts
+
+target_method net.minecraft.class_5610 method_32117 (Ljava/lang/String;Lnet/minecraft/class_5606;Lnet/minecraft/class_5603;)Lnet/minecraft/class_5610;
+	param 0 entity_model_parts
+
+target_method net.minecraft.class_5610 method_62143 (Ljava/lang/String;Lnet/minecraft/class_5610;)Lnet/minecraft/class_5610;
+	param 0 entity_model_parts
+
+#: Entity statuses. See {@link net.minecraft.entity.Entity#handleStatus(byte) Entity.handleStatus}.
+group int entity_status
+	net.minecraft.class_6024.*
+
+target_method net.minecraft.class_1297 method_5711 (B)V
+	param 0 entity_status
+
+target_method net.minecraft.class_1937 method_8421 (Lnet/minecraft/class_1297;B)V
+	param 1 entity_status
+
+target_method net.minecraft.class_2663 <init> (Lnet/minecraft/class_1297;B)V
+	param 1 entity_status
+
+target_method net.minecraft.class_2663 method_11470 ()B
+	return entity_status
+
+group int error_code
+	org.lwjgl.glfw.GLFW.GLFW_NO_ERROR
+	org.lwjgl.glfw.GLFW.GLFW_NOT_INITIALIZED
+	org.lwjgl.glfw.GLFW.GLFW_NO_CURRENT_CONTEXT
+	org.lwjgl.glfw.GLFW.GLFW_INVALID_ENUM
+	org.lwjgl.glfw.GLFW.GLFW_INVALID_VALUE
+	org.lwjgl.glfw.GLFW.GLFW_OUT_OF_MEMORY
+	org.lwjgl.glfw.GLFW.GLFW_API_UNAVAILABLE
+	org.lwjgl.glfw.GLFW.GLFW_VERSION_UNAVAILABLE
+	org.lwjgl.glfw.GLFW.GLFW_PLATFORM_ERROR
+	org.lwjgl.glfw.GLFW.GLFW_FORMAT_UNAVAILABLE
+	org.lwjgl.glfw.GLFW.GLFW_NO_WINDOW_CONTEXT
+	org.lwjgl.glfw.GLFW.GLFW_CURSOR_UNAVAILABLE
+	org.lwjgl.glfw.GLFW.GLFW_FEATURE_UNAVAILABLE
+	org.lwjgl.glfw.GLFW.GLFW_FEATURE_UNIMPLEMENTED
+	org.lwjgl.glfw.GLFW.GLFW_PLATFORM_UNAVAILABLE
+
+target_method org.lwjgl.glfw.GLFWErrorCallbackI invoke (IJ)V
+	param 0 error_code
+
+group int gl_depth_test_function
+	com.mojang.blaze3d.opengl.GlConst.GL_EQUAL
+	com.mojang.blaze3d.opengl.GlConst.GL_LEQUAL
+	com.mojang.blaze3d.opengl.GlConst.GL_LESS
+	com.mojang.blaze3d.opengl.GlConst.GL_GREATER
+	com.mojang.blaze3d.opengl.GlConst.GL_GEQUAL
+	com.mojang.blaze3d.opengl.GlConst.GL_ALWAYS
+
+group int gl_polygon_mode
+	com.mojang.blaze3d.opengl.GlConst.GL_LINE
+	com.mojang.blaze3d.opengl.GlConst.GL_FILL
+
+group int gl_draw_mode
+	com.mojang.blaze3d.opengl.GlConst.GL_LINES
+	com.mojang.blaze3d.opengl.GlConst.GL_LINE_STRIP
+	com.mojang.blaze3d.opengl.GlConst.GL_TRIANGLE_STRIP
+	com.mojang.blaze3d.opengl.GlConst.GL_TRIANGLE_FAN
+	com.mojang.blaze3d.opengl.GlConst.GL_TRIANGLES
+
+group int gl_address_mode
+	com.mojang.blaze3d.opengl.GlConst.GL_CLAMP_TO_EDGE
+	com.mojang.blaze3d.opengl.GlConst.GL_REPEAT
+
+group int gl_framebuffer_target
+	com.mojang.blaze3d.opengl.GlConst.GL_FRAMEBUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_READ_FRAMEBUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_DRAW_FRAMEBUFFER
+
+group int gl_filter
+	com.mojang.blaze3d.opengl.GlConst.GL_NEAREST
+	com.mojang.blaze3d.opengl.GlConst.GL_LINEAR
+
+group int gl_tex_target
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE_2D
+	com.mojang.blaze3d.opengl.GlConst.GL_PROXY_TEXTURE_2D
+
+group int gl_tex_parameter_pname
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE_MAG_FILTER
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE_MIN_FILTER
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE_COMPARE_MODE
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE_WRAP_S
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE_WRAP_T
+	org.lwjgl.opengl.GL12.GL_TEXTURE_MAX_LEVEL
+	org.lwjgl.opengl.GL12.GL_TEXTURE_MAX_LOD
+	org.lwjgl.opengl.GL12.GL_TEXTURE_MIN_LOD
+	org.lwjgl.opengl.GL14.GL_TEXTURE_LOD_BIAS
+
+group int gl_tex_level_parameter_pname
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE_WIDTH
+
+group int gl_tex_parameter_value
+	com.mojang.blaze3d.opengl.GlConst.GL_NEAREST
+	com.mojang.blaze3d.opengl.GlConst.GL_LINEAR
+	com.mojang.blaze3d.opengl.GlConst.GL_CLAMP_TO_EDGE
+	com.mojang.blaze3d.opengl.GlConst.GL_NEAREST_MIPMAP_LINEAR
+	com.mojang.blaze3d.opengl.GlConst.GL_LINEAR_MIPMAP_LINEAR
+
+group int gl_tex_format
+	com.mojang.blaze3d.opengl.GlConst.GL_DEPTH_COMPONENT
+	com.mojang.blaze3d.opengl.GlConst.GL_DEPTH_COMPONENT32
+	com.mojang.blaze3d.opengl.GlConst.GL_RGBA8
+	com.mojang.blaze3d.opengl.GlConst.GL_RGBA
+	com.mojang.blaze3d.opengl.GlConst.GL_BGR
+	com.mojang.blaze3d.opengl.GlConst.GL_RG
+	com.mojang.blaze3d.opengl.GlConst.GL_R8
+	com.mojang.blaze3d.opengl.GlConst.GL_RGB
+	com.mojang.blaze3d.opengl.GlConst.GL_RED
+	org.lwjgl.opengl.GL12.GL_BGRA
+	org.lwjgl.opengl.GL30.GL_R8I
+
+group int gl_type
+	com.mojang.blaze3d.opengl.GlConst.GL_BYTE
+	com.mojang.blaze3d.opengl.GlConst.GL_UNSIGNED_BYTE
+	com.mojang.blaze3d.opengl.GlConst.GL_SHORT
+	com.mojang.blaze3d.opengl.GlConst.GL_UNSIGNED_SHORT
+	com.mojang.blaze3d.opengl.GlConst.GL_INT
+	com.mojang.blaze3d.opengl.GlConst.GL_UNSIGNED_INT
+	com.mojang.blaze3d.opengl.GlConst.GL_FLOAT
+	org.lwjgl.opengl.GL20.GL_FLOAT_VEC2
+	org.lwjgl.opengl.GL20.GL_FLOAT_VEC3
+	org.lwjgl.opengl.GL20.GL_FLOAT_VEC4
+	org.lwjgl.opengl.GL20.GL_FLOAT_MAT4
+
+group int gl_framebuffer_attachment
+	com.mojang.blaze3d.opengl.GlConst.GL_COLOR_ATTACHMENT0
+	com.mojang.blaze3d.opengl.GlConst.GL_DEPTH_ATTACHMENT
+
+group int gl_framebuffer_status
+	com.mojang.blaze3d.opengl.GlConst.GL_FRAMEBUFFER_COMPLETE
+	com.mojang.blaze3d.opengl.GlConst.GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT
+	com.mojang.blaze3d.opengl.GlConst.GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT
+	com.mojang.blaze3d.opengl.GlConst.GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_FRAMEBUFFER_UNSUPPORTED
+	com.mojang.blaze3d.opengl.GlConst.GL_OUT_OF_MEMORY
+
+group int gl_arb_buffer_flags
+	@flags
+	org.lwjgl.opengl.GL30.GL_MAP_READ_BIT
+	org.lwjgl.opengl.GL30.GL_MAP_WRITE_BIT
+	org.lwjgl.opengl.ARBBufferStorage.GL_DYNAMIC_STORAGE_BIT
+	org.lwjgl.opengl.ARBBufferStorage.GL_CLIENT_STORAGE_BIT
+	org.lwjgl.opengl.ARBBufferStorage.GL_MAP_PERSISTENT_BIT
+	org.lwjgl.opengl.ARBBufferStorage.GL_MAP_COHERENT_BIT
+
+group int gpu_buffer_flags
+	@flags
+	com.mojang.blaze3d.buffers.GpuBuffer.USAGE_MAP_READ
+	com.mojang.blaze3d.buffers.GpuBuffer.USAGE_MAP_WRITE
+	com.mojang.blaze3d.buffers.GpuBuffer.USAGE_HINT_CLIENT_STORAGE
+	com.mojang.blaze3d.buffers.GpuBuffer.USAGE_COPY_DST
+	com.mojang.blaze3d.buffers.GpuBuffer.USAGE_COPY_SRC
+	com.mojang.blaze3d.buffers.GpuBuffer.USAGE_VERTEX
+	com.mojang.blaze3d.buffers.GpuBuffer.USAGE_INDEX
+	com.mojang.blaze3d.buffers.GpuBuffer.USAGE_UNIFORM
+	com.mojang.blaze3d.buffers.GpuBuffer.USAGE_UNIFORM_TEXEL_BUFFER
+
+group int gl_blend_equation_mode
+	com.mojang.blaze3d.opengl.GlConst.GL_FUNC_ADD
+	com.mojang.blaze3d.opengl.GlConst.GL_MIN
+	com.mojang.blaze3d.opengl.GlConst.GL_MAX
+	com.mojang.blaze3d.opengl.GlConst.GL_FUNC_SUBTRACT
+	com.mojang.blaze3d.opengl.GlConst.GL_FUNC_REVERSE_SUBTRACT
+
+group int gl_khr_label_identifier
+	org.lwjgl.opengl.KHRDebug.GL_BUFFER
+	org.lwjgl.opengl.KHRDebug.GL_SHADER
+	org.lwjgl.opengl.KHRDebug.GL_PROGRAM
+	org.lwjgl.opengl.GL11.GL_VERTEX_ARRAY
+	org.lwjgl.opengl.GL11.GL_TEXTURE
+
+group int gl_ext_label_identifier
+	org.lwjgl.opengl.EXTDebugLabel.GL_BUFFER_OBJECT_EXT
+	org.lwjgl.opengl.EXTDebugLabel.GL_SHADER_OBJECT_EXT
+	org.lwjgl.opengl.EXTDebugLabel.GL_PROGRAM_OBJECT_EXT
+	org.lwjgl.opengl.GL11.GL_VERTEX_ARRAY
+	org.lwjgl.opengl.GL11.GL_TEXTURE
+
+group int gl_debug_source
+	org.lwjgl.opengl.GL43.GL_DEBUG_SOURCE_API
+	org.lwjgl.opengl.GL43.GL_DEBUG_SOURCE_WINDOW_SYSTEM
+	org.lwjgl.opengl.GL43.GL_DEBUG_SOURCE_SHADER_COMPILER
+	org.lwjgl.opengl.GL43.GL_DEBUG_SOURCE_THIRD_PARTY
+	org.lwjgl.opengl.GL43.GL_DEBUG_SOURCE_APPLICATION
+	org.lwjgl.opengl.GL43.GL_DEBUG_SOURCE_OTHER
+
+group int gl_debug_type
+	org.lwjgl.opengl.GL43.GL_DEBUG_TYPE_ERROR
+	org.lwjgl.opengl.GL43.GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR
+	org.lwjgl.opengl.GL43.GL_DEBUG_TYPE_UNDEFINED_BEHAVIOR
+	org.lwjgl.opengl.GL43.GL_DEBUG_TYPE_PORTABILITY
+	org.lwjgl.opengl.GL43.GL_DEBUG_TYPE_PERFORMANCE
+	org.lwjgl.opengl.GL43.GL_DEBUG_TYPE_OTHER
+	org.lwjgl.opengl.GL43.GL_DEBUG_TYPE_MARKER
+
+group int gl_debug_severity
+	org.lwjgl.opengl.GL43.GL_DEBUG_SEVERITY_HIGH
+	org.lwjgl.opengl.GL43.GL_DEBUG_SEVERITY_MEDIUM
+	org.lwjgl.opengl.GL43.GL_DEBUG_SEVERITY_LOW
+	org.lwjgl.opengl.GL43.GL_DEBUG_SEVERITY_NOTIFICATION
+
+group int gl_enable_state
+	org.lwjgl.opengl.GL11.GL_BLEND
+	org.lwjgl.opengl.GL11.GL_DEPTH_TEST
+	org.lwjgl.opengl.GL11.GL_CULL_FACE
+	org.lwjgl.opengl.GL11.GL_POLYGON_OFFSET_LINE
+	org.lwjgl.opengl.GL11.GL_COLOR_LOGIC_OP
+	org.lwjgl.opengl.GL11.GL_SCISSOR_TEST
+	org.lwjgl.opengl.GL43.GL_DEBUG_OUTPUT
+	org.lwjgl.opengl.GL43.GL_DEBUG_OUTPUT_SYNCHRONOUS
+
+group int gl_hint_mode
+	org.lwjgl.opengl.GL11.GL_DONT_CARE
+
+group int gl_fence_sync_condition
+	com.mojang.blaze3d.opengl.GlConst.GL_SYNC_GPU_COMMANDS_COMPLETE
+
+group int gl_client_wait_sync_result
+	com.mojang.blaze3d.opengl.GlConst.GL_TIMEOUT_EXPIRED
+	com.mojang.blaze3d.opengl.GlConst.GL_WAIT_FAILED
+
+group int gl_draw_buffer_buf
+	com.mojang.blaze3d.opengl.GlConst.GL_COLOR_ATTACHMENT0
+
+group int gl_polygon_mode_face
+	com.mojang.blaze3d.opengl.GlConst.GL_FRONT_AND_BACK
+
+group int gl_program_pname
+	com.mojang.blaze3d.opengl.GlConst.GL_LINK_STATUS
+	com.mojang.blaze3d.opengl.GlConst.GL_COMPILE_STATUS
+	org.lwjgl.opengl.GL20.GL_ACTIVE_UNIFORMS
+	org.lwjgl.opengl.GL31.GL_ACTIVE_UNIFORM_BLOCKS
+
+group int gl_query_target
+	org.lwjgl.opengl.GL33.GL_TIME_ELAPSED
+
+group int gl_query_object_pname
+	org.lwjgl.opengl.GL15.GL_QUERY_RESULT
+	org.lwjgl.opengl.GL15.GL_QUERY_RESULT_AVAILABLE
+
+group int gl_texture
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE0
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE1
+	com.mojang.blaze3d.opengl.GlConst.GL_TEXTURE2
+
+group int gl_program_type
+	com.mojang.blaze3d.opengl.GlConst.GL_VERTEX_SHADER
+	com.mojang.blaze3d.opengl.GlConst.GL_FRAGMENT_SHADER
+
+group int gl_buffer_target
+	com.mojang.blaze3d.opengl.GlConst.GL_ARRAY_BUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_ELEMENT_ARRAY_BUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_PIXEL_PACK_BUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_COPY_READ_BUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_COPY_WRITE_BUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_PIXEL_UNPACK_BUFFER
+	com.mojang.blaze3d.opengl.GlConst.GL_UNIFORM_BUFFER
+
+group int gl_buffer_data_usage
+	com.mojang.blaze3d.opengl.GlConst.GL_STATIC_DRAW
+	com.mojang.blaze3d.opengl.GlConst.GL_DYNAMIC_DRAW
+	com.mojang.blaze3d.opengl.GlConst.GL_STREAM_DRAW
+	com.mojang.blaze3d.opengl.GlConst.GL_STATIC_READ
+	com.mojang.blaze3d.opengl.GlConst.GL_DYNAMIC_READ
+	com.mojang.blaze3d.opengl.GlConst.GL_STREAM_READ
+	com.mojang.blaze3d.opengl.GlConst.GL_STATIC_COPY
+	com.mojang.blaze3d.opengl.GlConst.GL_DYNAMIC_COPY
+	com.mojang.blaze3d.opengl.GlConst.GL_STREAM_COPY
+
+group int gl_error
+	com.mojang.blaze3d.opengl.GlConst.GL_OUT_OF_MEMORY
+
+group int gl_get_string_name
+	org.lwjgl.opengl.GL11.GL_VENDOR
+	org.lwjgl.opengl.GL11.GL_RENDERER
+	org.lwjgl.opengl.GL11.GL_VERSION
+	org.lwjgl.opengl.GL11.GL_EXTENSIONS
+
+group int gl_get_integer_pname
+	org.lwjgl.opengl.GL11.GL_MAX_TEXTURE_SIZE
+	org.lwjgl.opengl.KHRDebug.GL_MAX_LABEL_LENGTH
+	org.lwjgl.opengl.GL31.GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT
+
+group int gl_logic_op
+	org.lwjgl.opengl.GL11.GL_CLEAR
+	org.lwjgl.opengl.GL11.GL_AND
+	org.lwjgl.opengl.GL11.GL_AND_REVERSE
+	org.lwjgl.opengl.GL11.GL_COPY
+	org.lwjgl.opengl.GL11.GL_AND_INVERTED
+	org.lwjgl.opengl.GL11.GL_NOOP
+	org.lwjgl.opengl.GL11.GL_XOR
+	org.lwjgl.opengl.GL11.GL_OR
+	org.lwjgl.opengl.GL11.GL_NOR
+	org.lwjgl.opengl.GL11.GL_EQUIV
+	org.lwjgl.opengl.GL11.GL_INVERT
+	org.lwjgl.opengl.GL11.GL_OR_REVERSE
+	org.lwjgl.opengl.GL11.GL_COPY_INVERTED
+	org.lwjgl.opengl.GL11.GL_OR_INVERTED
+	org.lwjgl.opengl.GL11.GL_NAND
+	org.lwjgl.opengl.GL11.GL_SET
+
+group int gl_blend_func_factor
+	org.lwjgl.opengl.GL11.GL_SRC_ALPHA_SATURATE
+	org.lwjgl.opengl.GL14.GL_CONSTANT_ALPHA
+	org.lwjgl.opengl.GL14.GL_CONSTANT_COLOR
+	org.lwjgl.opengl.GL14.GL_ONE_MINUS_CONSTANT_ALPHA
+	org.lwjgl.opengl.GL14.GL_ONE_MINUS_CONSTANT_COLOR
+	com.mojang.blaze3d.opengl.GlConst.GL_ZERO
+	com.mojang.blaze3d.opengl.GlConst.GL_ONE
+	com.mojang.blaze3d.opengl.GlConst.GL_DST_ALPHA
+	com.mojang.blaze3d.opengl.GlConst.GL_DST_COLOR
+	com.mojang.blaze3d.opengl.GlConst.GL_ONE_MINUS_DST_ALPHA
+	com.mojang.blaze3d.opengl.GlConst.GL_ONE_MINUS_DST_COLOR
+	com.mojang.blaze3d.opengl.GlConst.GL_SRC_ALPHA
+	com.mojang.blaze3d.opengl.GlConst.GL_SRC_COLOR
+	com.mojang.blaze3d.opengl.GlConst.GL_ONE_MINUS_SRC_ALPHA
+	com.mojang.blaze3d.opengl.GlConst.GL_ONE_MINUS_SRC_COLOR
+
+group int gl_pixel_store_pname
+	com.mojang.blaze3d.opengl.GlConst.GL_UNPACK_SWAP_BYTES
+	com.mojang.blaze3d.opengl.GlConst.GL_UNPACK_LSB_FIRST
+	com.mojang.blaze3d.opengl.GlConst.GL_UNPACK_ROW_LENGTH
+	com.mojang.blaze3d.opengl.GlConst.GL_UNPACK_SKIP_ROWS
+	com.mojang.blaze3d.opengl.GlConst.GL_UNPACK_SKIP_PIXELS
+	com.mojang.blaze3d.opengl.GlConst.GL_UNPACK_ALIGNMENT
+	com.mojang.blaze3d.opengl.GlConst.GL_PACK_ALIGNMENT
+	com.mojang.blaze3d.opengl.GlConst.GL_PACK_ROW_LENGTH
+
+group int gl_map_buffer_access
+	org.lwjgl.opengl.GL30.GL_MAP_READ_BIT
+	org.lwjgl.opengl.GL30.GL_MAP_WRITE_BIT
+	org.lwjgl.opengl.GL30.GL_MAP_INVALIDATE_RANGE_BIT
+	org.lwjgl.opengl.GL30.GL_MAP_INVALIDATE_BUFFER_BIT
+	org.lwjgl.opengl.GL30.GL_MAP_FLUSH_EXPLICIT_BIT
+	org.lwjgl.opengl.GL30.GL_MAP_UNSYNCHRONIZED_BIT
+
+group int gl_buffer_mask
+	@flags
+	com.mojang.blaze3d.opengl.GlConst.GL_DEPTH_BUFFER_BIT
+	com.mojang.blaze3d.opengl.GlConst.GL_COLOR_BUFFER_BIT
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lcom/mojang/blaze3d/platform/DepthTestFunction;)I
+	return gl_depth_test_function
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lcom/mojang/blaze3d/platform/PolygonMode;)I
+	return gl_polygon_mode
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lcom/mojang/blaze3d/platform/DestFactor;)I
+	return gl_blend_func_factor
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lcom/mojang/blaze3d/platform/SourceFactor;)I
+	return gl_blend_func_factor
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lcom/mojang/blaze3d/vertex/VertexFormat$class_5596;)I
+	return gl_draw_mode
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lcom/mojang/blaze3d/vertex/VertexFormat$class_5595;)I
+	return gl_type
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lcom/mojang/blaze3d/vertex/VertexFormatElement$Type;)I
+	return gl_type
+
+target_method com.mojang.blaze3d.opengl.GlConst toGlType (Lcom/mojang/blaze3d/textures/TextureFormat;)I
+	return gl_type
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lnet/minecraft/class_1011$class_1012;)I
+	return gl_tex_format
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lcom/mojang/blaze3d/textures/AddressMode;)I
+	return gl_address_mode
+
+target_method com.mojang.blaze3d.opengl.GlConst toGlInternalId (Lcom/mojang/blaze3d/textures/TextureFormat;)I
+	return gl_tex_format
+
+target_method com.mojang.blaze3d.opengl.GlConst toGlExternalId (Lcom/mojang/blaze3d/textures/TextureFormat;)I
+	return gl_tex_format
+
+target_method com.mojang.blaze3d.opengl.GlConst toGl (Lcom/mojang/blaze3d/shaders/ShaderType;)I
+	return gl_program_type
+
+target_method com.mojang.blaze3d.opengl.GlConst bufferUsageToGlEnum (I)I
+	param 0 gpu_buffer_flags
+	return gl_buffer_data_usage
+
+target_method com.mojang.blaze3d.opengl.GlConst bufferUsageToGlFlag (I)I
+	param 0 gpu_buffer_flags
+	return gl_arb_buffer_flags
+
+target_method org.lwjgl.opengl.ARBDirectStateAccess glNamedBufferStorage (IJI)V
+	param 2 gl_arb_buffer_flags
+
+target_method org.lwjgl.opengl.ARBDirectStateAccess glNamedBufferStorage (ILjava/nio/ByteBuffer;I)V
+	param 2 gl_arb_buffer_flags
+
+target_method net.minecraft.class_10874 method_71028 (IJI)V
+	param 2 gpu_buffer_flags
+
+target_method net.minecraft.class_10874 method_71029 (ILjava/nio/ByteBuffer;I)V
+	param 2 gpu_buffer_flags
+
+target_method net.minecraft.class_10874 method_71030 (IJI)V
+	param 2 gpu_buffer_flags
+
+target_method net.minecraft.class_10874 method_71031 (ILjava/nio/ByteBuffer;I)V
+	param 2 gpu_buffer_flags
+
+target_method net.minecraft.class_10874 method_71024 (II)V
+	param 1 gpu_buffer_flags
+
+target_method com.mojang.blaze3d.systems.GpuDevice createBuffer (Ljava/util/function/Supplier;ILjava/nio/ByteBuffer;)Lcom/mojang/blaze3d/buffers/GpuBuffer;
+	param 1 gpu_buffer_flags
+
+target_method com.mojang.blaze3d.vertex.VertexFormat uploadToBuffer (Lcom/mojang/blaze3d/buffers/GpuBuffer;Ljava/nio/ByteBuffer;ILjava/util/function/Supplier;)Lcom/mojang/blaze3d/buffers/GpuBuffer;
+	param 2 gpu_buffer_flags
+
+target_method org.lwjgl.opengl.GL30 glBindFramebuffer (II)V
+	param 0 gl_framebuffer_target
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _glBindFramebuffer (II)V
+	param 0 gl_framebuffer_target
+
+target_method com.mojang.blaze3d.opengl.GlStateManager getFrameBuffer (I)I
+	param 0 gl_framebuffer_target
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _glFramebufferTexture2D (IIIII)V
+	param 0 gl_framebuffer_target
+	param 1 gl_framebuffer_attachment
+	param 2 gl_tex_target
+
+target_method org.lwjgl.opengl.ARBDirectStateAccess glNamedFramebufferTexture (IIII)V
+	param 1 gl_framebuffer_attachment
+
+target_method net.minecraft.class_10874 method_68432 (IIIII)V
+	param 4 gl_framebuffer_target
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _glBlitFrameBuffer (IIIIIIIIII)V
+	param 8 gl_buffer_mask
+	param 9 gl_filter
+
+target_method net.minecraft.class_10874 method_68812 (IIIIIIIIIIII)V
+	param 10 gl_buffer_mask
+	param 11 gl_filter
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _texParameter (III)V
+	param 0 gl_tex_target
+	param 1 gl_tex_parameter_pname
+	param 2 gl_tex_parameter_value
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _texImage2D (IIIIIIIILjava/nio/ByteBuffer;)V
+	param 0 gl_tex_target
+	param 2 gl_tex_format
+	param 6 gl_tex_format
+	param 7 gl_type
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _texSubImage2D (IIIIIIIIJ)V
+	param 0 gl_tex_target
+	param 6 gl_tex_format
+	param 7 gl_type
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _texSubImage2D (IIIIIIIILjava/nio/ByteBuffer;)V
+	param 0 gl_tex_target
+	param 6 gl_tex_format
+	param 7 gl_type
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _getTexLevelParameter (III)I
+	param 0 gl_tex_target
+	param 2 gl_tex_level_parameter_pname
+
+target_method org.lwjgl.opengl.GL11 glBindTexture (II)V
+	param 0 gl_tex_target
+
+target_method org.lwjgl.opengl.GL11C glBindTexture (II)V
+	param 0 gl_tex_target
+
+target_method org.lwjgl.opengl.GL11 glTexImage2D (IIIIIIIILjava/nio/ByteBuffer;)V
+	param 0 gl_tex_target
+	param 2 gl_tex_format
+	param 6 gl_tex_format
+
+target_method org.lwjgl.opengl.GL11 glTexParameteri (III)V
+	param 0 gl_tex_target
+
+target_method org.lwjgl.opengl.GL31 glTexBuffer (III)V
+	param 0 gl_tex_target
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _readPixels (IIIIIIJ)V
+	param 4 gl_tex_format
+	param 5 gl_type
+
+target_method net.minecraft.class_1008 method_4222 (I)Ljava/lang/String;
+	param 0 gl_debug_source
+
+target_method net.minecraft.class_1008 method_4224 (IIIIIJJ)V
+	param 0 gl_debug_source
+	param 1 gl_debug_type
+	param 3 gl_debug_severity
+
+target_method net.minecraft.class_1008$class_6359 <init> (IIIILjava/lang/String;)V
+	param 0 gl_debug_source
+	param 1 gl_debug_type
+	param 3 gl_debug_severity
+
+target_method org.lwjgl.opengl.KHRDebug glPushDebugGroup (IILjava/lang/CharSequence;)V
+	param 0 gl_debug_source
+
+target_method net.minecraft.class_1008 method_4228 (I)Ljava/lang/String;
+	param 0 gl_debug_type
+
+target_method net.minecraft.class_1008 method_4226 (I)Ljava/lang/String;
+	param 0 gl_debug_severity
+
+target_method com.mojang.blaze3d.opengl.GlStateManager$class_1018 <init> (I)V
+	param 0 gl_enable_state
+
+target_method org.lwjgl.opengl.GL11 glEnable (I)V
+	param 0 gl_enable_state
+
+target_method org.lwjgl.opengl.KHRDebug glDebugMessageControl (III[IZ)V
+	param 0 gl_hint_mode
+	param 1 gl_hint_mode
+
+target_method org.lwjgl.opengl.ARBDebugOutput glDebugMessageControlARB (III[IZ)V
+	param 0 gl_hint_mode
+	param 1 gl_hint_mode
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _glFenceSync (II)J
+	param 0 gl_fence_sync_condition
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _glClientWaitSync (JIJ)I
+	return gl_client_wait_sync_result
+
+target_method org.lwjgl.opengl.GL11 glDrawBuffer (I)V
+	param 0 gl_draw_buffer_buf
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _polygonMode (II)V
+	param 0 gl_polygon_mode_face
+
+target_method com.mojang.blaze3d.opengl.GlStateManager glGetProgrami (II)I
+	param 1 gl_program_pname
+
+target_method com.mojang.blaze3d.opengl.GlStateManager glGetShaderi (II)I
+	param 1 gl_program_pname
+
+target_method org.lwjgl.opengl.GL15C glBeginQuery (II)V
+	param 0 gl_query_target
+
+target_method org.lwjgl.opengl.GL15C glEndQuery (I)V
+	param 0 gl_query_target
+
+target_method org.lwjgl.opengl.GL15C glGetQueryObjecti (II)I
+	param 1 gl_query_object_pname
+
+target_method org.lwjgl.opengl.ARBTimerQuery glGetQueryObjecti64 (II)J
+	param 1 gl_query_object_pname
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _glBindBuffer (II)V
+	param 0 gl_buffer_target
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _glBufferData (IJI)V
+	param 0 gl_buffer_target
+	param 2 gl_buffer_data_usage
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _glBufferData (ILjava/nio/ByteBuffer;I)V
+	param 0 gl_buffer_target
+	param 2 gl_buffer_data_usage
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _glUnmapBuffer (I)V
+	param 0 gl_buffer_target
+
+target_method org.lwjgl.opengl.GL15 glBindBuffer (II)V
+	param 0 gl_buffer_target
+
+target_method org.lwjgl.opengl.GL15 glBufferData (IJI)V
+	param 0 gl_buffer_target
+	param 2 gl_buffer_data_usage
+
+target_method org.lwjgl.opengl.GL15 glBufferData (ILjava/nio/ByteBuffer;I)V
+	param 0 gl_buffer_target
+	param 2 gl_buffer_data_usage
+
+target_method org.lwjgl.opengl.GL30 glMapBufferRange (IJJI)Ljava/nio/ByteBuffer;
+	param 0 gl_buffer_target
+	param 3 gl_map_buffer_access
+
+target_method org.lwjgl.opengl.GL30 glBindBufferRange (IIIJJ)V
+	param 0 gl_buffer_target
+
+target_method org.lwjgl.opengl.ARBBufferStorage glBufferStorage (IJI)V
+	param 0 gl_buffer_target
+	param 2 gl_arb_buffer_flags
+
+target_method org.lwjgl.opengl.ARBBufferStorage glBufferStorage (ILjava/nio/ByteBuffer;I)V
+	param 0 gl_buffer_target
+	param 2 gl_arb_buffer_flags
+
+target_method com.mojang.blaze3d.buffers.GpuBuffer usage ()I
+	return gpu_buffer_flags
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _getError ()I
+	return gl_error
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _getString (I)Ljava/lang/String;
+	param 0 gl_get_string_name
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _getInteger (I)I
+	param 0 gl_get_integer_pname
+
+target_method org.lwjgl.opengl.GL11 glGetInteger (I)I
+	param 0 gl_get_integer_pname
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _logicOp (I)V
+	param 0 gl_logic_op
+
+target_method com.mojang.blaze3d.opengl.GlStateManager _pixelStore (II)V
+	param 0 gl_pixel_store_pname
+
+target_method org.lwjgl.opengl.GL11 glPixelStorei (II)V
+	param 0 gl_pixel_store_pname
+
+target_method org.lwjgl.opengl.KHRDebug glObjectLabel (IILjava/lang/CharSequence;)V
+	param 0 gl_khr_label_identifier
+
+target_method org.lwjgl.opengl.EXTDebugLabel glLabelObjectEXT (IILjava/lang/CharSequence;)V
+	param 0 gl_ext_label_identifier
+
+group int input_mode
+	net.minecraft.class_3675.field_32004
+	org.lwjgl.glfw.GLFW.GLFW_STICKY_KEYS
+	org.lwjgl.glfw.GLFW.GLFW_STICKY_MOUSE_BUTTONS
+	org.lwjgl.glfw.GLFW.GLFW_LOCK_KEY_MODS
+	org.lwjgl.glfw.GLFW.GLFW_RAW_MOUSE_MOTION
+
+group int value
+	net.minecraft.class_3675.field_32006
+	org.lwjgl.glfw.GLFW.GLFW_CURSOR_HIDDEN
+	net.minecraft.class_3675.field_32005
+	org.lwjgl.glfw.GLFW.GLFW_CURSOR_CAPTURED
+	org.lwjgl.glfw.GLFW.GLFW_FALSE
+	org.lwjgl.glfw.GLFW.GLFW_TRUE
+
+target_method org.lwjgl.glfw.GLFW glfwSetInputMode (JII)V
+	param 1 input_mode
+	param 2 value
+
+target_method net.minecraft.class_3675 method_15984 (Lnet/minecraft/class_1041;IDD)V
+	param 1 value
+
+#: Spliterator characteristics. See {@link java.util.Spliterator#characteristics Spliterator.characteristics}.
+group int spliterator_characteristics
+	@flags
+	java.util.Spliterator.ORDERED
+	java.util.Spliterator.DISTINCT
+	java.util.Spliterator.SORTED
+	java.util.Spliterator.SIZED
+	java.util.Spliterator.NONNULL
+	java.util.Spliterator.IMMUTABLE
+	java.util.Spliterator.CONCURRENT
+	java.util.Spliterator.SUBSIZED
+
+target_method java.util.Spliterator characteristics ()I
+	return spliterator_characteristics
+
+target_method java.util.Spliterator hasCharacteristics (I)Z
+	param 0 spliterator_characteristics
+
+target_method java.util.Spliterators$AbstractSpliterator <init> (JI)V
+	param 1 spliterator_characteristics
+
+#: {@link org.joml.Matrix4f Matrix4f} {@linkplain org.joml.Matrix4fc#properties() properties}.
+group int matrix4f_properties
+	@flags
+	org.joml.Matrix4fc.PROPERTY_AFFINE
+	org.joml.Matrix4fc.PROPERTY_IDENTITY
+	org.joml.Matrix4fc.PROPERTY_ORTHONORMAL
+	org.joml.Matrix4fc.PROPERTY_PERSPECTIVE
+	org.joml.Matrix4fc.PROPERTY_TRANSLATION
+
+target_method org.joml.Matrix4fc properties ()I
+	return matrix4f_properties
+
+target_method net.minecraft.class_7837 method_67703 (Lorg/joml/Matrix4fc;I)Z
+	param 1 matrix4f_properties
+
+target_method net.minecraft.class_7837 method_67702 (Lorg/joml/Matrix4fc;I)Z
+	param 1 matrix4f_properties
+
+group int key
+	org.lwjgl.glfw.GLFW.GLFW_KEY_UNKNOWN
+	net.minecraft.class_3675.field_31940
+	net.minecraft.class_3675.field_31985
+	net.minecraft.class_3675.field_32007
+	net.minecraft.class_3675.field_32008
+	net.minecraft.class_3675.field_32009
+	net.minecraft.class_3675.field_32010
+	net.minecraft.class_3675.field_32011
+	net.minecraft.class_3675.field_32012
+	net.minecraft.class_3675.field_32013
+	net.minecraft.class_3675.field_32014
+	net.minecraft.class_3675.field_32015
+	net.minecraft.class_3675.field_32016
+	net.minecraft.class_3675.field_32017
+	net.minecraft.class_3675.field_32018
+	net.minecraft.class_3675.field_32019
+	net.minecraft.class_3675.field_32020
+	net.minecraft.class_3675.field_32021
+	net.minecraft.class_3675.field_32022
+	net.minecraft.class_3675.field_32023
+	net.minecraft.class_3675.field_32024
+	net.minecraft.class_3675.field_32025
+	net.minecraft.class_3675.field_32026
+	net.minecraft.class_3675.field_32027
+	net.minecraft.class_3675.field_32028
+	net.minecraft.class_3675.field_32029
+	net.minecraft.class_3675.field_32030
+	net.minecraft.class_3675.field_31906
+	net.minecraft.class_3675.field_31907
+	net.minecraft.class_3675.field_31908
+	net.minecraft.class_3675.field_31909
+	net.minecraft.class_3675.field_31910
+	net.minecraft.class_3675.field_31911
+	net.minecraft.class_3675.field_31912
+	net.minecraft.class_3675.field_31913
+	net.minecraft.class_3675.field_31914
+	net.minecraft.class_3675.field_31915
+	net.minecraft.class_3675.field_31916
+	net.minecraft.class_3675.field_31917
+	net.minecraft.class_3675.field_31918
+	net.minecraft.class_3675.field_31919
+	net.minecraft.class_3675.field_31920
+	net.minecraft.class_3675.field_31921
+	net.minecraft.class_3675.field_31922
+	net.minecraft.class_3675.field_31923
+	net.minecraft.class_3675.field_31924
+	net.minecraft.class_3675.field_31925
+	net.minecraft.class_3675.field_31926
+	net.minecraft.class_3675.field_31927
+	net.minecraft.class_3675.field_31928
+	net.minecraft.class_3675.field_31929
+	net.minecraft.class_3675.field_31930
+	net.minecraft.class_3675.field_31931
+	net.minecraft.class_3675.field_31959
+	net.minecraft.class_3675.field_31960
+	net.minecraft.class_3675.field_31961
+	net.minecraft.class_3675.field_31962
+	net.minecraft.class_3675.field_31963
+	net.minecraft.class_3675.field_31964
+	net.minecraft.class_3675.field_31965
+	net.minecraft.class_3675.field_31966
+	net.minecraft.class_3675.field_31967
+	net.minecraft.class_3675.field_31968
+	net.minecraft.class_3675.field_31969
+	net.minecraft.class_3675.field_31970
+	net.minecraft.class_3675.field_31971
+	net.minecraft.class_3675.field_31972
+	net.minecraft.class_3675.field_31973
+	net.minecraft.class_3675.field_31974
+	net.minecraft.class_3675.field_31975
+	net.minecraft.class_3675.field_31976
+	net.minecraft.class_3675.field_31977
+	net.minecraft.class_3675.field_31978
+	net.minecraft.class_3675.field_31933
+	net.minecraft.class_3675.field_31979
+	net.minecraft.class_3675.field_31980
+	net.minecraft.class_3675.field_31981
+	net.minecraft.class_3675.field_31942
+	org.lwjgl.glfw.GLFW.GLFW_KEY_KP_DIVIDE
+	org.lwjgl.glfw.GLFW.GLFW_KEY_KP_SUBTRACT
+	net.minecraft.class_3675.field_31982
+	net.minecraft.class_3675.field_31983
+	net.minecraft.class_3675.field_31984
+	net.minecraft.class_3675.field_31932
+	net.minecraft.class_3675.field_31934
+	net.minecraft.class_3675.field_31935
+	net.minecraft.class_3675.field_31936
+	net.minecraft.class_3675.field_31937
+	net.minecraft.class_3675.field_31938
+	net.minecraft.class_3675.field_31939
+	net.minecraft.class_3675.field_31941
+	net.minecraft.class_3675.field_31943
+	net.minecraft.class_3675.field_31944
+	net.minecraft.class_3675.field_31945
+	net.minecraft.class_3675.field_31946
+	net.minecraft.class_3675.field_31947
+	net.minecraft.class_3675.field_31948
+	net.minecraft.class_3675.field_31949
+	net.minecraft.class_3675.field_31950
+	net.minecraft.class_3675.field_31951
+	net.minecraft.class_3675.field_31952
+	net.minecraft.class_3675.field_31953
+	net.minecraft.class_3675.field_31954
+	net.minecraft.class_3675.field_31955
+	net.minecraft.class_3675.field_31956
+	net.minecraft.class_3675.field_31957
+	net.minecraft.class_3675.field_31958
+	net.minecraft.class_3675.field_31986
+	net.minecraft.class_3675.field_31987
+	net.minecraft.class_3675.field_31988
+	net.minecraft.class_3675.field_31989
+	net.minecraft.class_3675.field_31990
+	net.minecraft.class_3675.field_31991
+	net.minecraft.class_3675.field_31992
+	net.minecraft.class_3675.field_31993
+	net.minecraft.class_3675.field_31994
+	net.minecraft.class_3675.field_31995
+	org.lwjgl.glfw.GLFW.GLFW_KEY_MENU
+	net.minecraft.class_3675.field_31996
+	org.lwjgl.glfw.GLFW.GLFW_KEY_WORLD_1
+	org.lwjgl.glfw.GLFW.GLFW_KEY_WORLD_2
+
+target_method net.minecraft.class_3675 method_15987 (Lnet/minecraft/class_1041;I)Z
+	param 1 key
+
+target_method net.minecraft.class_11908 comp_4795 ()I
+	return key
+
+target_method org.lwjgl.glfw.GLFW glfwGetKeyName (II)Ljava/lang/String;
+	param 0 key
+
+target_method org.lwjgl.glfw.GLFW glfwGetKey (JI)I
+	param 0 key
+
+group int key_or_button_state
+	net.minecraft.class_3675.field_31998
+	net.minecraft.class_3675.field_31997
+	net.minecraft.class_3675.field_31999
+
+target_method net.minecraft.class_309 method_1466 (JILnet/minecraft/class_11908;)V
+	param 1 key_or_button_state
+
+target_method net.minecraft.class_312 method_1601 (JLnet/minecraft/class_11910;I)V
+	param 2 key_or_button_state
+
+target_method org.lwjgl.glfw.GLFW glfwGetKey (JI)I
+	return key_or_button_state
+
+group int key_or_mouse_button
+	org.lwjgl.glfw.GLFW.GLFW_KEY_UNKNOWN
+	net.minecraft.class_3675.field_31940
+	net.minecraft.class_3675.field_31985
+	net.minecraft.class_3675.field_32007
+	net.minecraft.class_3675.field_32008
+	net.minecraft.class_3675.field_32009
+	net.minecraft.class_3675.field_32010
+	net.minecraft.class_3675.field_32011
+	net.minecraft.class_3675.field_32012
+	net.minecraft.class_3675.field_32013
+	net.minecraft.class_3675.field_32014
+	net.minecraft.class_3675.field_32015
+	net.minecraft.class_3675.field_32016
+	net.minecraft.class_3675.field_32017
+	net.minecraft.class_3675.field_32018
+	net.minecraft.class_3675.field_32019
+	net.minecraft.class_3675.field_32020
+	net.minecraft.class_3675.field_32021
+	net.minecraft.class_3675.field_32022
+	net.minecraft.class_3675.field_32023
+	net.minecraft.class_3675.field_32024
+	net.minecraft.class_3675.field_32025
+	net.minecraft.class_3675.field_32026
+	net.minecraft.class_3675.field_32027
+	net.minecraft.class_3675.field_32028
+	net.minecraft.class_3675.field_32029
+	net.minecraft.class_3675.field_32030
+	net.minecraft.class_3675.field_31906
+	net.minecraft.class_3675.field_31907
+	net.minecraft.class_3675.field_31908
+	net.minecraft.class_3675.field_31909
+	net.minecraft.class_3675.field_31910
+	net.minecraft.class_3675.field_31911
+	net.minecraft.class_3675.field_31912
+	net.minecraft.class_3675.field_31913
+	net.minecraft.class_3675.field_31914
+	net.minecraft.class_3675.field_31915
+	net.minecraft.class_3675.field_31916
+	net.minecraft.class_3675.field_31917
+	net.minecraft.class_3675.field_31918
+	net.minecraft.class_3675.field_31919
+	net.minecraft.class_3675.field_31920
+	net.minecraft.class_3675.field_31921
+	net.minecraft.class_3675.field_31922
+	net.minecraft.class_3675.field_31923
+	net.minecraft.class_3675.field_31924
+	net.minecraft.class_3675.field_31925
+	net.minecraft.class_3675.field_31926
+	net.minecraft.class_3675.field_31927
+	net.minecraft.class_3675.field_31928
+	net.minecraft.class_3675.field_31929
+	net.minecraft.class_3675.field_31930
+	net.minecraft.class_3675.field_31931
+	net.minecraft.class_3675.field_31959
+	net.minecraft.class_3675.field_31960
+	net.minecraft.class_3675.field_31961
+	net.minecraft.class_3675.field_31962
+	net.minecraft.class_3675.field_31963
+	net.minecraft.class_3675.field_31964
+	net.minecraft.class_3675.field_31965
+	net.minecraft.class_3675.field_31966
+	net.minecraft.class_3675.field_31967
+	net.minecraft.class_3675.field_31968
+	net.minecraft.class_3675.field_31969
+	net.minecraft.class_3675.field_31970
+	net.minecraft.class_3675.field_31971
+	net.minecraft.class_3675.field_31972
+	net.minecraft.class_3675.field_31973
+	net.minecraft.class_3675.field_31974
+	net.minecraft.class_3675.field_31975
+	net.minecraft.class_3675.field_31976
+	net.minecraft.class_3675.field_31977
+	net.minecraft.class_3675.field_31978
+	net.minecraft.class_3675.field_31933
+	net.minecraft.class_3675.field_31979
+	net.minecraft.class_3675.field_31980
+	net.minecraft.class_3675.field_31981
+	net.minecraft.class_3675.field_31942
+	org.lwjgl.glfw.GLFW.GLFW_KEY_KP_DIVIDE
+	org.lwjgl.glfw.GLFW.GLFW_KEY_KP_SUBTRACT
+	net.minecraft.class_3675.field_31982
+	net.minecraft.class_3675.field_31983
+	net.minecraft.class_3675.field_31984
+	net.minecraft.class_3675.field_31932
+	net.minecraft.class_3675.field_31934
+	net.minecraft.class_3675.field_31935
+	net.minecraft.class_3675.field_31936
+	net.minecraft.class_3675.field_31937
+	net.minecraft.class_3675.field_31938
+	net.minecraft.class_3675.field_31939
+	net.minecraft.class_3675.field_31941
+	net.minecraft.class_3675.field_31943
+	net.minecraft.class_3675.field_31944
+	net.minecraft.class_3675.field_31945
+	net.minecraft.class_3675.field_31946
+	net.minecraft.class_3675.field_31947
+	net.minecraft.class_3675.field_31948
+	net.minecraft.class_3675.field_31949
+	net.minecraft.class_3675.field_31950
+	net.minecraft.class_3675.field_31951
+	net.minecraft.class_3675.field_31952
+	net.minecraft.class_3675.field_31953
+	net.minecraft.class_3675.field_31954
+	net.minecraft.class_3675.field_31955
+	net.minecraft.class_3675.field_31956
+	net.minecraft.class_3675.field_31957
+	net.minecraft.class_3675.field_31958
+	net.minecraft.class_3675.field_31986
+	net.minecraft.class_3675.field_31987
+	net.minecraft.class_3675.field_31988
+	net.minecraft.class_3675.field_31989
+	net.minecraft.class_3675.field_31990
+	net.minecraft.class_3675.field_31991
+	net.minecraft.class_3675.field_31992
+	net.minecraft.class_3675.field_31993
+	net.minecraft.class_3675.field_31994
+	net.minecraft.class_3675.field_31995
+	org.lwjgl.glfw.GLFW.GLFW_KEY_MENU
+	net.minecraft.class_3675.field_31996
+	org.lwjgl.glfw.GLFW.GLFW_KEY_WORLD_1
+	org.lwjgl.glfw.GLFW.GLFW_KEY_WORLD_2
+	net.minecraft.class_3675.field_32000
+	net.minecraft.class_3675.field_32001
+	net.minecraft.class_3675.field_32002
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_4
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_5
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_6
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_7
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_8
+
+target_method net.minecraft.class_3675$class_307 method_1446 (Lnet/minecraft/class_3675$class_307;Ljava/lang/String;I)V
+	param 2 key_or_mouse_button
+
+target_method net.minecraft.class_3675$class_307 method_1447 (I)Lnet/minecraft/class_3675$class_306;
+	param 0 key_or_mouse_button
+
+target_method net.minecraft.class_3675$class_306 <init> (Ljava/lang/String;Lnet/minecraft/class_3675$class_307;I)V
+	param 2 key_or_mouse_button
+
+target_method net.minecraft.class_3675$class_306 method_1444 ()I
+	return key_or_mouse_button
+
+target_method net.minecraft.class_11907 method_74228 ()I
+	return key_or_mouse_button
+
+target_field net.minecraft.class_3675$class_306 field_1665 I key_or_mouse_button
+
+group int lightmap_coordinates
+	@flags
+	net.minecraft.class_765.field_32767
+	net.minecraft.class_765.field_32768
+	net.minecraft.class_765.field_32769
+
+target_method net.minecraft.class_765 method_23687 (II)I
+	return lightmap_coordinates
+
+target_method net.minecraft.class_765 method_24187 (I)I
+	param 0 lightmap_coordinates
+
+target_method net.minecraft.class_765 method_24186 (I)I
+	param 0 lightmap_coordinates
+
+target_method net.minecraft.class_327 method_22942 (Lnet/minecraft/class_5481;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)V
+	param 9 lightmap_coordinates
+
+target_method net.minecraft.class_327 method_27521 (Ljava/lang/String;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)V
+	param 9 lightmap_coordinates
+
+target_method net.minecraft.class_327 method_27522 (Lnet/minecraft/class_2561;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)V
+	param 9 lightmap_coordinates
+
+target_method net.minecraft.class_327 method_37296 (Lnet/minecraft/class_5481;FFIILorg/joml/Matrix4f;Lnet/minecraft/class_4597;I)V
+	param 7 lightmap_coordinates
+
+target_method net.minecraft.class_3879 method_60879 (Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;II)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_3879 method_62100 (Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;III)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_630 method_22698 (Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;II)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_630 method_22699 (Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;III)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_630 method_22702 (Lnet/minecraft/class_4587$class_4665;Lnet/minecraft/class_4588;III)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_330 method_1773 (Lnet/minecraft/class_10090;Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;ZI)V
+	param 4 lightmap_coordinates
+
+target_method net.minecraft.class_4588 method_60803 (I)Lnet/minecraft/class_4588;
+	param 0 lightmap_coordinates
+
+target_method net.minecraft.class_4588 method_22919 (Lnet/minecraft/class_4587$class_4665;Lnet/minecraft/class_777;FFFFII)V
+	param 6 lightmap_coordinates
+
+target_method net.minecraft.class_4588 method_23919 (FFFIFFIIFFF)V
+	param 7 lightmap_coordinates
+
+target_method net.minecraft.class_778 method_23073 (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_4588;Lnet/minecraft/class_4587$class_4665;Lnet/minecraft/class_777;Lnet/minecraft/class_778$class_10931;I)V
+	param 7 lightmap_coordinates
+
+target_method net.minecraft.class_778 method_3370 (Lnet/minecraft/class_1920;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;IIZLnet/minecraft/class_4587;Lnet/minecraft/class_4588;Ljava/util/List;Lnet/minecraft/class_778$class_10931;)V
+	param 3 lightmap_coordinates
+
+target_method net.minecraft.class_776 method_3353 (Lnet/minecraft/class_2680;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V
+	param 3 lightmap_coordinates
+
+target_method net.minecraft.class_775 method_23072 (Lnet/minecraft/class_4588;FFFFFFFFI)V
+	param 9 lightmap_coordinates
+
+target_method net.minecraft.class_775 method_3343 (Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I
+	return lightmap_coordinates
+
+target_method net.minecraft.class_11785 method_73478 (Lnet/minecraft/class_4587;FFLnet/minecraft/class_5481;ZLnet/minecraft/class_327$class_6415;IIII)V
+	param 6 lightmap_coordinates
+
+target_method net.minecraft.class_11785 method_73490 (Lnet/minecraft/class_3879;Ljava/lang/Object;Lnet/minecraft/class_4587;Lnet/minecraft/class_1921;IIILnet/minecraft/class_1058;ILnet/minecraft/class_11683$class_11792;)V
+	param 4 lightmap_coordinates
+
+target_method net.minecraft.class_11785 method_73489 (Lnet/minecraft/class_3879;Ljava/lang/Object;Lnet/minecraft/class_4587;Lnet/minecraft/class_1921;IIILnet/minecraft/class_11683$class_11792;)V
+	param 4 lightmap_coordinates
+
+target_method net.minecraft.class_11785 method_73491 (Lnet/minecraft/class_630;Lnet/minecraft/class_4587;Lnet/minecraft/class_1921;IILnet/minecraft/class_1058;)V
+	param 3 lightmap_coordinates
+
+target_method net.minecraft.class_11785 method_73493 (Lnet/minecraft/class_630;Lnet/minecraft/class_4587;Lnet/minecraft/class_1921;IILnet/minecraft/class_1058;ZZ)V
+	param 3 lightmap_coordinates
+
+target_method net.minecraft.class_11785 method_73481 (Lnet/minecraft/class_4587;Lnet/minecraft/class_2680;III)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_11785 method_73484 (Lnet/minecraft/class_4587;Lnet/minecraft/class_1921;Lnet/minecraft/class_1087;FFFIII)V
+	param 6 lightmap_coordinates
+
+target_method net.minecraft.class_11785 method_73480 (Lnet/minecraft/class_4587;Lnet/minecraft/class_811;III[ILjava/util/List;Lnet/minecraft/class_1921;Lnet/minecraft/class_10444$class_10445;)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_891 method_23837 (Lnet/minecraft/class_4588;Lnet/minecraft/class_4587$class_4665;IFIII)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_895 method_3917 (FFFFLnet/minecraft/class_4587;Lnet/minecraft/class_11659;I)V
+	param 6 lightmap_coordinates
+
+target_method net.minecraft.class_897 method_24088 (Lnet/minecraft/class_1297;F)I
+	return lightmap_coordinates
+
+target_method net.minecraft.class_902 method_23171 (Lnet/minecraft/class_4588;Lnet/minecraft/class_4587$class_4665;FFIIIFFI)V
+	param 9 lightmap_coordinates
+
+target_method net.minecraft.class_906 method_23840 (Lnet/minecraft/class_4588;Lnet/minecraft/class_4587$class_4665;IFIII)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_915 method_33433 (ZII)I
+	param 1 lightmap_coordinates
+	param 2 lightmap_coordinates
+	return lightmap_coordinates
+
+target_method net.minecraft.class_925 method_4064 (Lnet/minecraft/class_10045;Lnet/minecraft/class_2680;Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;I)V
+	param 4 lightmap_coordinates
+
+target_method net.minecraft.class_928 method_23188 (Lnet/minecraft/class_4587$class_4665;Lnet/minecraft/class_4588;FFFFFIIII)V
+	param 10 lightmap_coordinates
+
+target_method net.minecraft.class_970 method_4169 (Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;Lnet/minecraft/class_1799;Lnet/minecraft/class_1304;ILnet/minecraft/class_10034;)V
+	param 4 lightmap_coordinates
+
+target_method net.minecraft.class_3887 method_23196 (Lnet/minecraft/class_3879;Lnet/minecraft/class_2960;Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;ILnet/minecraft/class_10042;II)V
+	param 4 lightmap_coordinates
+
+target_method net.minecraft.class_3887 method_23199 (Lnet/minecraft/class_3879;Lnet/minecraft/class_2960;Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;ILnet/minecraft/class_10042;II)V
+	param 4 lightmap_coordinates
+
+target_method net.minecraft.class_3887 method_4199 (Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;ILnet/minecraft/class_10017;FF)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_983 method_62593 (Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;ILnet/minecraft/class_10055;Lnet/minecraft/class_1453$class_7989;FFZ)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_4507 method_22130 (Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;IFFFI)V
+	param 2 lightmap_coordinates
+
+target_method net.minecraft.class_918 method_62476 (Lnet/minecraft/class_811;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;II[ILjava/util/List;Lnet/minecraft/class_1921;Lnet/minecraft/class_10444$class_10445;)V
+	param 3 lightmap_coordinates
+
+target_method net.minecraft.class_918 method_23180 (Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Ljava/util/List;[III)V
+	param 4 lightmap_coordinates
+
+group int mod
+	@flags
+	@format hex
+	net.minecraft.class_3675.field_62548
+	net.minecraft.class_3675.field_32003
+	net.minecraft.class_3675.field_62549
+	net.minecraft.class_3675.field_62550
+	net.minecraft.class_3675.field_62551
+	net.minecraft.class_3675.field_62552
+
+group int glfw_monitor_event
+	org.lwjgl.glfw.GLFW.GLFW_CONNECTED
+	org.lwjgl.glfw.GLFW.GLFW_DISCONNECTED
+
+target_method net.minecraft.class_323 method_1683 (JI)V
+	param 1 glfw_monitor_event
+
+group int mouse_button
+	net.minecraft.class_3675.field_32000
+	net.minecraft.class_3675.field_32002
+	net.minecraft.class_3675.field_32001
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_4
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_5
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_6
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_7
+	org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_8
+
+target_method net.minecraft.class_11910 comp_4801 ()I
+	return mouse_button
+
+target_method net.minecraft.class_11909 method_74245 ()I
+	return mouse_button
+
+group int nbt_type_id
+	net.minecraft.class_2520.field_33250
+	net.minecraft.class_2520.field_33251
+	net.minecraft.class_2520.field_33252
+	net.minecraft.class_2520.field_33253
+	net.minecraft.class_2520.field_33254
+	net.minecraft.class_2520.field_33255
+	net.minecraft.class_2520.field_33256
+	net.minecraft.class_2520.field_33257
+	net.minecraft.class_2520.field_33258
+	net.minecraft.class_2520.field_33259
+	net.minecraft.class_2520.field_33260
+	net.minecraft.class_2520.field_33261
+	net.minecraft.class_2520.field_33262
+
+target_method net.minecraft.class_2520 method_10711 ()B
+	return nbt_type_id
+
+target_method net.minecraft.class_4615 method_23265 (I)Lnet/minecraft/class_4614;
+	param 0 nbt_type_id
+
+group int max_string_length
+	net.minecraft.class_2540.field_33283
+	net.minecraft.class_2540.field_33284
+
+group int max_var_int_length
+	net.minecraft.class_8703.field_45682
+
+group int max_var_long_length
+	net.minecraft.class_8704.field_45686
+
+target_method net.minecraft.class_2540 method_10800 (I)Ljava/lang/String;
+	param 0 max_string_length
+
+target_method net.minecraft.class_2540 method_10788 (Ljava/lang/String;I)Lnet/minecraft/class_2540;
+	param 1 max_string_length
+
+target_method net.minecraft.class_8703 method_53015 (I)I
+	return max_var_int_length
+
+target_method net.minecraft.class_8704 method_53019 (J)I
+	return max_var_long_length
+
+group int c2s_player_move_flag
+	@flags
+	net.minecraft.class_2828.field_52336
+	net.minecraft.class_2828.field_52337
+
+target_method net.minecraft.class_2828 method_61223 (ZZ)I
+	return c2s_player_move_flag
+
+target_method net.minecraft.class_2828 method_61222 (I)Z
+	param 0 c2s_player_move_flag
+
+target_method net.minecraft.class_2828 method_61224 (I)Z
+	param 0 c2s_player_move_flag
+
+group int s2c_animation_id
+	net.minecraft.class_2616.field_33295
+	net.minecraft.class_2616.field_33297
+	net.minecraft.class_2616.field_33298
+	net.minecraft.class_2616.field_33299
+	net.minecraft.class_2616.field_33300
+
+target_method net.minecraft.class_2616 <init> (Lnet/minecraft/class_1297;I)V
+	param 1 s2c_animation_id
+
+target_method net.minecraft.class_2616 method_11267 ()I
+	return s2c_animation_id
+
+group int s2c_game_state_demo_value
+	@scope class net.minecraft.class_3201
+	net.minecraft.class_2668.field_33328
+	net.minecraft.class_2668.field_33329
+	net.minecraft.class_2668.field_33330
+	net.minecraft.class_2668.field_33331
+	net.minecraft.class_2668.field_33332
+
+target_method net.minecraft.class_2668 <init> (Lnet/minecraft/class_2668$class_5402;F)V
+	param 1 s2c_game_state_demo_value
+
+target_method net.minecraft.class_2668 method_11492 ()F
+	return s2c_game_state_demo_value
+
+group int s2c_player_respawn_flag
+	net.minecraft.class_2724.field_41730
+	net.minecraft.class_2724.field_41731
+	net.minecraft.class_2724.field_41732
+
+target_method net.minecraft.class_2724 <init> (Lnet/minecraft/class_8589;B)V
+	param 1 s2c_player_respawn_flag
+
+target_method net.minecraft.class_2724 comp_1729 ()B
+	return s2c_player_respawn_flag
+
+target_method net.minecraft.class_2724 method_48016 (B)Z
+	param 0 s2c_player_respawn_flag
+
+group int s2c_scoreboard_objective_update_mode
+	net.minecraft.class_2751.field_33343
+	net.minecraft.class_2751.field_33344
+	net.minecraft.class_2751.field_33345
+
+target_method net.minecraft.class_2751 <init> (Lnet/minecraft/class_266;I)V
+	param 1 s2c_scoreboard_objective_update_mode
+
+target_method net.minecraft.class_2751 method_11837 ()I
+	return s2c_scoreboard_objective_update_mode
+
+group int s2c_team_packet_type
+	net.minecraft.class_5900.field_33346
+	net.minecraft.class_5900.field_33347
+	net.minecraft.class_5900.field_33348
+	net.minecraft.class_5900.field_33349
+	net.minecraft.class_5900.field_33350
+
+target_method net.minecraft.class_5900 <init> (Ljava/lang/String;ILjava/util/Optional;Ljava/util/Collection;)V
+	param 1 s2c_team_packet_type
+
+target_method net.minecraft.class_5900 method_34169 (I)Z
+	param 0 s2c_team_packet_type
+
+target_method net.minecraft.class_5900 method_34175 (I)Z
+	param 0 s2c_team_packet_type
+
+group int glfw_platform_value
+	org.lwjgl.glfw.GLFW.GLFW_ANY_PLATFORM
+	org.lwjgl.glfw.GLFW.GLFW_PLATFORM_WIN32
+	org.lwjgl.glfw.GLFW.GLFW_PLATFORM_COCOA
+	org.lwjgl.glfw.GLFW.GLFW_PLATFORM_WAYLAND
+	org.lwjgl.glfw.GLFW.GLFW_PLATFORM_X11
+	org.lwjgl.glfw.GLFW.GLFW_PLATFORM_NULL
+
+target_method org.lwjgl.glfw.GLFW glfwGetPlatform ()I
+	return glfw_platform_value
+
+group int pufferfish_state
+	net.minecraft.class_1454.field_30353
+	net.minecraft.class_1454.field_30354
+	net.minecraft.class_1454.field_30355
+
+target_method net.minecraft.class_1454 method_6596 (I)V
+	param 0 pufferfish_state
+
+group int screen_handler_slot_id
+	net.minecraft.class_1703.field_30730
+
+target_method net.minecraft.class_1703 method_30010 (IILnet/minecraft/class_1713;Lnet/minecraft/class_1657;)V
+	param 0 screen_handler_slot_id
+
+#: Flags used by {@link net.minecraft.world.ModifiableWorld#setBlockState(net.minecraft.util.math.BlockPos, net.minecraft.block.BlockState, int) World.setBlockState}.
+group int set_block_state_flags
+	@flags
+	net.minecraft.class_2248.field_55740
+	net.minecraft.class_2248.field_31035
+	net.minecraft.class_2248.field_31022
+	net.minecraft.class_2248.field_31036
+	net.minecraft.class_2248.field_31027
+	net.minecraft.class_2248.field_31028
+	net.minecraft.class_2248.field_31029
+	net.minecraft.class_2248.field_31030
+	net.minecraft.class_2248.field_31031
+	net.minecraft.class_2248.field_31032
+	net.minecraft.class_2248.field_31033
+	net.minecraft.class_2248.field_53822
+	net.minecraft.class_2248.field_55739
+	net.minecraft.class_2248.field_56561
+
+target_annotation net.minecraft.class_2248$class_12132 set_block_state_flags
+
+target_method net.minecraft.class_1937 method_8413 (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2680;I)V
+	param 3 set_block_state_flags
+
+target_method net.minecraft.class_7165 method_42392 (Lnet/minecraft/class_2350;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;II)V
+	param 4 set_block_state_flags
+
+target_method net.minecraft.class_3233 setBlockState (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;II)Z
+	param 2 set_block_state_flags
+
+target_method net.minecraft.class_2791 method_12010 (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;I)Lnet/minecraft/class_2680;
+	param 2 set_block_state_flags
+
+group int trial_spawner_luminance
+	net.minecraft.class_8967$class_8968.field_47398
+	net.minecraft.class_8967$class_8968.field_47399
+	net.minecraft.class_8967$class_8968.field_47400
+
+group int trial_spawner_display_rotation_speed
+	net.minecraft.class_8967$class_8970.field_47405
+	net.minecraft.class_8967$class_8970.field_47406
+	net.minecraft.class_8967$class_8970.field_47407
+
+group int trial_spawner_cooldown
+	net.minecraft.class_8967.field_47389
+
+target_method net.minecraft.class_8967 <init> (Ljava/lang/String;ILjava/lang/String;ILnet/minecraft/class_8967$class_8969;DZ)V
+	param 1 trial_spawner_luminance
+	param 3 trial_spawner_display_rotation_speed
+
+target_method net.minecraft.class_8967 method_55209 ()I
+	return trial_spawner_luminance
+
+target_method net.minecraft.class_8967 method_55215 ()D
+	return trial_spawner_display_rotation_speed
+
+target_method net.minecraft.class_8966 method_55184 (Lnet/minecraft/class_3218;FI)Z
+	param 2 trial_spawner_cooldown
+
+group int glfw_window_hint
+	org.lwjgl.glfw.GLFW.GLFW_CLIENT_API
+	org.lwjgl.glfw.GLFW.GLFW_CONTEXT_CREATION_API
+	org.lwjgl.glfw.GLFW.GLFW_CONTEXT_VERSION_MAJOR
+	org.lwjgl.glfw.GLFW.GLFW_CONTEXT_VERSION_MINOR
+	org.lwjgl.glfw.GLFW.GLFW_OPENGL_FORWARD_COMPAT
+	org.lwjgl.glfw.GLFW.GLFW_OPENGL_PROFILE
+
+group int glfw_window_hint_value
+	org.lwjgl.glfw.GLFW.GLFW_OPENGL_API
+	org.lwjgl.glfw.GLFW.GLFW_NATIVE_CONTEXT_API
+	org.lwjgl.glfw.GLFW.GLFW_OPENGL_CORE_PROFILE
+
+target_method org.lwjgl.glfw.GLFW glfwWindowHint (II)V
+	param 0 glfw_window_hint
+	param 1 glfw_window_hint_value
+
+group int mansion_size
+	net.minecraft.class_3471$class_3474.field_31665
+
+group int mansion_cell_types
+	net.minecraft.class_3471$class_3474.field_31666
+	net.minecraft.class_3471$class_3474.field_31667
+	net.minecraft.class_3471$class_3474.field_31668
+	net.minecraft.class_3471$class_3474.field_31669
+	net.minecraft.class_3471$class_3474.field_31670
+	net.minecraft.class_3471$class_3474.field_31671
+
+target_method net.minecraft.class_3471$class_3478 <init> (III)V
+	param 0 mansion_size
+	param 1 mansion_size
+	param 2 mansion_cell_types
+
+target_method net.minecraft.class_3471$class_3478 method_15065 (III)V
+	param 2 mansion_cell_types
+
+target_method net.minecraft.class_3471$class_3478 method_15062 (IIIII)V
+	param 4 mansion_cell_types
+
+target_method net.minecraft.class_3471$class_3478 method_15066 (II)I
+	return mansion_cell_types
+
+target_method net.minecraft.class_3471$class_3478 method_15061 (IIII)V
+	param 2 mansion_cell_types
+	param 3 mansion_cell_types
+
+target_method net.minecraft.class_3471$class_3478 method_15067 (III)Z
+	param 2 mansion_cell_types
+
+group int world_event
+	net.minecraft.class_6088.*
+
+target_method net.minecraft.class_1936 method_8444 (Lnet/minecraft/class_1297;ILnet/minecraft/class_2338;I)V
+	param 1 world_event
+
+target_method net.minecraft.class_1936 method_20290 (ILnet/minecraft/class_2338;I)V
+	param 0 world_event
+
+target_method net.minecraft.class_9959 method_62194 (ILnet/minecraft/class_2338;I)V
+	param 0 world_event
+
+target_method net.minecraft.class_1937 method_8474 (ILnet/minecraft/class_2338;I)V
+	param 0 world_event
+
+target_method net.minecraft.class_9959 method_62187 (ILnet/minecraft/class_2338;I)V
+	param 0 world_event
+
+target_method net.minecraft.class_2673 <init> (ILnet/minecraft/class_2338;IZ)V
+	param 0 world_event
+
+target_method net.minecraft.class_2673 method_11532 ()I
+	return world_event

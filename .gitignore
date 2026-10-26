@@ -1,0 +1,15 @@
+.gradle/
+**/build/
+run/
+run-production/
+*.log
+
+# HiddenHouse hardening exclusions
+/build/
+/.hardening-tests/
+**/hiddenhouse-license.properties
+**/.hiddenhouse-license-*.tmp
+**/*-private.pem
+**/*.keystore
+**/*.p12
+build.gradle.before-hardening-*

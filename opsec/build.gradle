@@ -1,0 +1,45 @@
+plugins {
+    id 'fabric-loom'
+}
+
+version = rootProject.version
+group = 'aurick.opsec'
+base { archivesName = 'opsec' }
+
+repositories {
+    maven { url = 'https://maven.fabricmc.net/' }
+    maven { url = 'https://maven.terraformersmc.com/releases/' }
+    maven { url = 'https://jitpack.io/' }
+    mavenCentral()
+}
+
+sourceSets.main.java.srcDir 'src/client/java'
+sourceSets.main.resources.srcDir 'src/client/resources'
+
+dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_version}"
+    modCompileOnly 'com.terraformersmc:modmenu:17.0.0-beta.1'
+    modImplementation 'com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.3.3'
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') {
+        expand version: project.version, minecraft_version_range: '~1.21.11', java_version: '21'
+    }
+    filesMatching('opsec.client.mixins.json') {
+        expand mixin_compat_level: 'JAVA_21', known_packs_mixin_entry: '\n        "KnownPacksManagerMixin",', payload_type_registry_mixin_entry: '\n        "PayloadTypeRegistryImplMixin",'
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+java { withSourcesJar() }
+
+jar { from('LICENSE') }
+

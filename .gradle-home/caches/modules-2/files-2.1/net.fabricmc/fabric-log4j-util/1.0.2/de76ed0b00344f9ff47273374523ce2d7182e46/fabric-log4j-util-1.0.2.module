@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.fabricmc",
+    "module": "fabric-log4j-util",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fabric-log4j-util-1.0.2.jar",
+          "url": "fabric-log4j-util-1.0.2.jar",
+          "size": 6357,
+          "sha512": "b0c5b20b4c8d2791c4eb587b60bbb4178be20f1f196e089bd478f6b601ee825494ae982041b62f0979151fa5afd88e58574895ca53baca24f407cb68770a6107",
+          "sha256": "538e845a086d58301b7dfb2135db52213666374ee9a23f0d9dc776c6e37c25b2",
+          "sha1": "ef0b3fb613356feb75a67d54f2fad6f03a006648",
+          "md5": "a0905d80b52d0059204e7cfcb77f0a8e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-log4j-util-1.0.2.jar",
+          "url": "fabric-log4j-util-1.0.2.jar",
+          "size": 6357,
+          "sha512": "b0c5b20b4c8d2791c4eb587b60bbb4178be20f1f196e089bd478f6b601ee825494ae982041b62f0979151fa5afd88e58574895ca53baca24f407cb68770a6107",
+          "sha256": "538e845a086d58301b7dfb2135db52213666374ee9a23f0d9dc776c6e37c25b2",
+          "sha1": "ef0b3fb613356feb75a67d54f2fad6f03a006648",
+          "md5": "a0905d80b52d0059204e7cfcb77f0a8e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-log4j-util-1.0.2-sources.jar",
+          "url": "fabric-log4j-util-1.0.2-sources.jar",
+          "size": 4485,
+          "sha512": "7dcf0d7c7f528807588da701de2c2f7772ed59ffc49f6ebdafdcef800c5013447749d02be4d11bb93156d0d4ec8cb2d0ccf2628245157e72ee6d10d0ecd1b45e",
+          "sha256": "a3af9541764701e0c8a903574a933d06a4eeebeae4401cd9eae8b15ba0bd1354",
+          "sha1": "201d8a3ecff0b60ef3aba97140dde83c22801a36",
+          "md5": "78a00c34d76e8a85f3879a4098b83baa"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-log4j-util-1.0.2-javadoc.jar",
+          "url": "fabric-log4j-util-1.0.2-javadoc.jar",
+          "size": 93703,
+          "sha512": "5a748a13129804ca3b97c79de5633a39c2a5ceec14e0de8cc342816ff316a728fef2fc05c6890a800c3157e8c3988d7c246c69496273f7cf03ae80c50cfa4197",
+          "sha256": "0dc4834ffc92ac268429dfd1e7e9bed7c2677939ada48ef5c2fa649f5c046480",
+          "sha1": "4dd014b650f0d1bb086b81d2be57c86a348b7e34",
+          "md5": "f431a86027988e613f36f2ba932ad005"
+        }
+      ]
+    }
+  ]
+}

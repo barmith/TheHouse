@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "package": "com.thehouse.paperutility.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BrowserIconGuiMixin",
+    "HandledScreenMixin",
+    "HandledScreenSideLockMixin",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "HeldItemRendererMixin",
+    "ItemFrameEntityRendererMixin",
+    "ItemEntityRendererMixin",
+    "ArrowEntityRendererMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "render.RenderBossbarMixin",
+    "render.RenderCameraMixin",
+    "render.RenderClientMixin",
+    "render.RenderEntityMixin",
+    "render.RenderGameMixin",
+    "render.RenderHudMixin",
+    "render.RenderInputMixin",
+    "render.RenderLightmapMixin",
+    "render.RenderLookMixin",
+    "render.RenderMouseMixin",
+    "render.RenderOverlayMixin",
+    "render.RenderWeatherMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.fabricmc.fabric-api</groupId>
+  <artifactId>fabric-renderer-api-v1</artifactId>
+  <version>8.0.3+f4ffd2e53e</version>
+  <name>Fabric Renderer API (v1)</name>
+  <description>Defines rendering extensions for dynamic/fancy block and item models.</description>
+  <url>https://github.com/FabricMC/fabric/tree/HEAD/fabric-renderer-api-v1</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://github.com/FabricMC/fabric/blob/HEAD/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>FabricMC</name>
+      <url>https://fabricmc.net/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/FabricMC/fabric.git</connection>
+    <developerConnection>scm:git:git@github.com:FabricMC/fabric.git</developerConnection>
+    <url>https://github.com/FabricMC/fabric</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/FabricMC/fabric/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api-base</artifactId>
+      <version>1.0.5+4ebb5c083e</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-rendering-v1</artifactId>
+      <version>16.2.10+0290ad933e</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-transitive-access-wideners-v1</artifactId>
+      <version>7.1.0+014c8cec3e</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
