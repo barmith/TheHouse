@@ -112,19 +112,23 @@ The module distinguishes viewer cards, host cards, locked state, and failure/rel
 
 ### Required Blackjack dropper setup
 
-Every numbered Blackjack dropper slot must start with **8 map-art items per card number**. In other words, each of the nine card-number slots must contain a stack of eight matching map arts before the hand begins:
+Every Blackjack dropper slot must start with **8 map-art items per card value**. The map arts use the following nine-name scheme: **A, 3, 4, 5, 6, 7, 8, 9, 10**. Each slot must contain a stack of eight matching map arts before the hand begins:
 
 ```text
-slot 1: 8 copies
-slot 2: 8 copies
+slot A: 8 copies
 slot 3: 8 copies
-...
+slot 4: 8 copies
+slot 5: 8 copies
+slot 6: 8 copies
+slot 7: 8 copies
+slot 8: 8 copies
 slot 9: 8 copies
+slot 10: 8 copies
 ```
 
 This is a required starting invariant for the visual accounting. The tracker does not infer the starting quantity from whatever happens to be visible when the GUI is opened. If a slot has fewer or more than eight at setup, returned-card accounting and masking can become incorrect.
 
-The nine physical slots may be in any learned order, but each supported card number must appear exactly once during table learning. Do not mix card templates in a slot or leave a numbered slot empty when learning the table.
+The nine physical slots may be in any learned order, but each supported card name must appear exactly once during table learning. Do not mix card templates in a slot or leave a named slot empty when learning the table.
 
 ### Switching Viewer and Host sides
 
