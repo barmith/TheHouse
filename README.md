@@ -4,6 +4,10 @@ TheHouse is a client-side Fabric utility for Minecraft 1.21.11. It provides tabl
 
 The mod is client-side. It does not add blocks, items, commands, or server-side content. Settings are stored in `config/thehouse.properties` and survive Minecraft restarts.
 
+A Premium version that will properly reflect the winning values server-side is available for purchase in my discord server: https://discord.gg/377c8xmumS
+
+The premium version WILL WORK with people around you.
+
 ## Requirements
 
 - Minecraft 1.21.11
